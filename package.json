@@ -1,0 +1,39 @@
+{
+  "name": "ripscloud",
+  "description": "Rips Cloud — multi-tenant manager over the Colombian Ministry FEV RIPS / SISPRO upstream. Deployed on Cloudflare Workers + Pages.",
+  "private": true,
+  "packageManager": "pnpm@10.33.4",
+  "engines": {
+    "node": ">=22.0.0",
+    "pnpm": ">=10.0.0"
+  },
+  "scripts": {
+    "dev": "turbo dev",
+    "dev:api": "pnpm --filter @ripscloud/api run dev",
+    "dev:web": "pnpm --filter @ripscloud/web run dev",
+    "build": "turbo build",
+    "lint": "turbo run lint",
+    "test": "pnpm -r --parallel run test",
+    "typecheck": "pnpm -r --parallel run lint",
+    "db:migrate": "pnpm --filter @ripscloud/api run db:migrate",
+    "db:migrate:remote": "pnpm --filter @ripscloud/api run db:migrate:remote",
+    "db:seed": "pnpm --filter @ripscloud/api run db:seed",
+    "setup": "pnpm db:migrate",
+    "ship": "pnpm ship:api && pnpm ship:web",
+    "ship:api": "pnpm --filter @ripscloud/api run ship",
+    "ship:web": "pnpm --filter @ripscloud/web run ship",
+    "clean": "find . -name 'node_modules' -prune -not -path './.git/*' | xargs rm -rf && find . -name 'dist' -prune -not -path './.git/*' -not -path './node_modules/*' | xargs rm -rf && find . -name '.turbo' -prune -not -path './.git/*' | xargs rm -rf && find . -name '.wrangler' -prune -not -path './.git/*' | xargs rm -rf",
+    "nuke": "pnpm clean && rm -f pnpm-lock.yaml"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "workerd"
+    ]
+  },
+  "devDependencies": {
+    "turbo": "2.9.9",
+    "typescript": "6.0.3",
+    "wrangler": "catalog:"
+  }
+}

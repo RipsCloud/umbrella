@@ -1,0 +1,38 @@
+{
+  "name": "@ripscloud/web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "tsc -p tsconfig.app.json --noEmit",
+    "preview": "vite preview",
+    "ship": "pnpm run build && wrangler pages deploy dist --project-name ripscloud-web --branch main --commit-dirty=true"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "catalog:",
+    "@tanstack/react-query": "catalog:",
+    "@tanstack/react-router": "catalog:",
+    "clsx": "catalog:",
+    "i18next": "catalog:",
+    "i18next-browser-languagedetector": "catalog:",
+    "next-themes": "catalog:",
+    "react": "catalog:",
+    "react-dom": "catalog:",
+    "react-i18next": "catalog:",
+    "tailwind-merge": "catalog:",
+    "tailwindcss": "catalog:"
+  },
+  "devDependencies": {
+    "@tanstack/router-devtools": "catalog:",
+    "@tanstack/router-plugin": "catalog:",
+    "@types/node": "catalog:",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "@vitejs/plugin-react": "catalog:",
+    "typescript": "catalog:",
+    "vite": "catalog:",
+    "wrangler": "catalog:"
+  }
+}

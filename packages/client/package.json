@@ -1,0 +1,30 @@
+{
+  "name": "@ripscloud/client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "tsc -p tsconfig.json --noEmit",
+    "gen": "tsx scripts/gen.ts",
+    "gen:stage": "FEVRIPS_SPEC_URL=https://fevrips-stage.matrixmdsoftware.com/swagger/v1/swagger.json pnpm gen",
+    "gen:prod": "FEVRIPS_SPEC_URL=https://fevrips.matrixmdsoftware.com/swagger/v1/swagger.json pnpm gen",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:integration": "vitest run --reporter=verbose"
+  },
+  "dependencies": {
+    "openapi-fetch": "catalog:"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "catalog:",
+    "@types/node": "catalog:",
+    "openapi-typescript": "catalog:",
+    "tsx": "catalog:",
+    "typescript": "catalog:",
+    "vitest": "catalog:"
+  }
+}

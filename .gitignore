@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.turbo/
+.tanstack/
+*.tsbuildinfo
+.wrangler/
+.dev.vars
+.DS_Store
+
+# Vite per-developer overrides — committed defaults live in .env.development / .env.production
+.env.local
+.env.*.local

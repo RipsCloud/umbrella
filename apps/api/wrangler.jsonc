@@ -1,0 +1,144 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "ripscloud-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-04-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": false,
+
+  // Local dev ports — see root README › Local dev.
+  // 8830 worker http · 8833 inspector · 8836 web (vite, see apps/web/vite.config.ts)
+  "dev": {
+    "port": 8830,
+    "inspector_port": 8833
+  },
+
+  "placement": { "mode": "smart" },
+
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1,
+    "logs": {
+      "enabled": true,
+      "head_sampling_rate": 1,
+      "invocation_logs": true
+    },
+    "traces": {
+      "enabled": true,
+      "head_sampling_rate": 1
+    }
+  },
+
+  // === Top-level config used by `wrangler dev`. ===
+  // No top-level `routes` so wrangler dev binds to localhost. Top-level vars
+  // are dev-flavoured (LOG_LEVEL=debug, ALLOWED_ORIGINS lets the local web
+  // vite server through, upstream points at the FEV RIPS staging environment
+  // so we don't accidentally hit production from a dev machine).
+  // env.production overrides them.
+  "vars": {
+    "LOG_LEVEL": "debug",
+    "ALLOWED_ORIGINS": "http://localhost:8836",
+    "FEVRIPS_UPSTREAM_BASE_URL": "https://rips-stage.matrixmdsoftware.com"
+  },
+
+  "durable_objects": {
+    "bindings": [
+      { "name": "TENANT", "class_name": "TenantDO" }
+    ]
+  },
+
+  // Migration tags are append-only — never reorder or drop entries from this
+  // list once shipped. Add new entries to the end and mirror them in
+  // env.production.migrations.
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_sqlite_classes": ["TenantDO"]
+    }
+  ],
+
+  // Top-level d1_databases drives `wrangler dev`. No `remote: true` here so
+  // dev writes to a local SQLite via miniflare (run `pnpm db:migrate` to
+  // apply schema). The same DB id is used in env.production with
+  // `remote: true` for the deployed Worker.
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "ripscloud-db",
+      "database_id": "REPLACE_WITH_D1_ID",
+      "preview_database_id": "REPLACE_WITH_D1_ID",
+      "migrations_dir": "../../packages/db/drizzle"
+    }
+  ],
+
+  "r2_buckets": [
+    {
+      "binding": "FILES",
+      "bucket_name": "ripscloud-files",
+      "preview_bucket_name": "ripscloud-files"
+    }
+  ],
+
+  "kv_namespaces": [
+    {
+      "binding": "TOKENS",
+      "id": "REPLACE_WITH_KV_ID"
+    }
+  ],
+
+  // === Production overrides. Used by `pnpm ship:api`
+  // (wrangler deploy --env production). ===
+  // Wrangler does NOT inherit vars/d1/r2/kv/durable_objects/migrations from
+  // the top level into named environments — every env must redeclare what it
+  // wants. Keep this in sync with the top-level bindings; only `name`,
+  // `routes`, and the prod-flavoured vars are genuinely env-specific.
+  "env": {
+    "production": {
+      "name": "ripscloud-api",
+      // TODO: confirm production custom domain before first deploy.
+      "routes": [
+        { "pattern": "api.ripscloud.com", "custom_domain": true }
+      ],
+      "vars": {
+        "LOG_LEVEL": "info",
+        // TODO: set to the real web app origin once the domain is confirmed.
+        "ALLOWED_ORIGINS": "https://app.ripscloud.com",
+        "FEVRIPS_UPSTREAM_BASE_URL": "https://rips.matrixmdsoftware.com"
+      },
+      "durable_objects": {
+        "bindings": [
+          { "name": "TENANT", "class_name": "TenantDO" }
+        ]
+      },
+      "migrations": [
+        {
+          "tag": "v1",
+          "new_sqlite_classes": ["TenantDO"]
+        }
+      ],
+      "d1_databases": [
+        {
+          "binding": "DB",
+          "database_name": "ripscloud-db",
+          "database_id": "REPLACE_WITH_D1_ID",
+          "preview_database_id": "REPLACE_WITH_D1_ID",
+          "migrations_dir": "../../packages/db/drizzle",
+          "remote": true
+        }
+      ],
+      "r2_buckets": [
+        {
+          "binding": "FILES",
+          "bucket_name": "ripscloud-files",
+          "preview_bucket_name": "ripscloud-files"
+        }
+      ],
+      "kv_namespaces": [
+        {
+          "binding": "TOKENS",
+          "id": "REPLACE_WITH_KV_ID"
+        }
+      ]
+    }
+  }
+}

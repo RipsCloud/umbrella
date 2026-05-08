@@ -1,0 +1,72 @@
+packages:
+  - "packages/*"
+  - "apps/*"
+
+# Workspace linking — better Cloudflare Workers builds (wrangler/esbuild
+# bundle injected copies more reliably than symlinks)
+linkWorkspacePackages: deep
+injectWorkspacePackages: true
+dedupeInjectedDeps: true
+
+# Safety: refuse installs on cyclic workspace deps
+disallowWorkspaceCycles: true
+
+# Performance: CoW clone on APFS
+packageImportMethod: clone
+
+# === Centralized dependency versions ===
+# Single source of truth. Update here, every app gets it on next install.
+# Reference from package.json with: "<dep>": "catalog:"
+catalog:
+  # --- Toolchain ---
+  typescript: 6.0.3
+  turbo: 2.9.9
+  "@types/node": 25.6.0
+
+  # --- Cloudflare ecosystem ---
+  wrangler: 4.88.0
+  "@cloudflare/workers-types": 4.20260507.1
+
+  # --- Drizzle ORM ---
+  drizzle-orm: 0.45.2
+  drizzle-kit: 0.31.10
+
+  # --- Hono web framework ---
+  hono: 4.12.18
+  "@hono/zod-openapi": 1.3.0
+  "@hono/swagger-ui": 0.6.1
+
+  # --- Validation ---
+  zod: 4.4.3
+
+  # --- React stack (web app) ---
+  react: 19.2.6
+  react-dom: 19.2.6
+  "@types/react": 19.2.14
+  "@types/react-dom": 19.2.3
+  "@vitejs/plugin-react": 6.0.1
+  vite: 8.0.10
+
+  # --- Test ---
+  vitest: 4.1.5
+  tsx: 4.21.0
+
+  # --- OpenAPI tooling (used by the client package to consume the upstream
+  # FEV RIPS swagger.json — `openapi-fetch` runtime + `openapi-typescript`
+  # codegen). ---
+  openapi-fetch: 0.17.0
+  openapi-typescript: 7.13.0
+
+  # --- TanStack / shadcn / Tailwind v4 stack ---
+  "@tailwindcss/vite": 4.2.4
+  "@tanstack/react-query": 5.100.9
+  "@tanstack/react-router": 1.169.2
+  "@tanstack/router-devtools": 1.166.13
+  "@tanstack/router-plugin": 1.167.35
+  clsx: 2.1.1
+  i18next: 26.0.10
+  i18next-browser-languagedetector: 8.2.1
+  next-themes: 0.4.6
+  react-i18next: 17.0.7
+  tailwind-merge: 3.5.0
+  tailwindcss: 4.2.4

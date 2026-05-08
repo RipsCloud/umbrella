@@ -1,0 +1,9 @@
+# Copy to .dev.vars and fill in. .dev.vars is gitignored — never commit secrets.
+#
+# Most non-secret values for local dev already live in wrangler.jsonc › top-level
+# vars (LOG_LEVEL, ALLOWED_ORIGINS, FEVRIPS_UPSTREAM_BASE_URL). This file only
+# carries secrets and tenant-flavored overrides.
+
+# Optional: override the upstream FEV RIPS base URL. Defaults to the staging
+# upstream so local dev never accidentally writes to production.
+# FEVRIPS_UPSTREAM_BASE_URL=https://rips-stage.matrixmdsoftware.com
