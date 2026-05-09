@@ -1,5 +1,5 @@
 {
-  "name": "@ripscloud/db",
+  "name": "@ripscloud/ripscloud-db",
   "private": true,
   "version": "0.0.0",
   "type": "module",

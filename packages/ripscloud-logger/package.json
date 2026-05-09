@@ -1,5 +1,5 @@
 {
-  "name": "@ripscloud/queries",
+  "name": "@ripscloud/ripscloud-logger",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,14 +10,9 @@
     "build": "tsc",
     "lint": "tsc -p tsconfig.json --noEmit"
   },
-  "dependencies": {
-    "@ripscloud/db": "workspace:*",
-    "@ripscloud/domain": "workspace:*",
-    "@ripscloud/logger": "workspace:*",
-    "drizzle-orm": "catalog:"
-  },
   "devDependencies": {
     "@cloudflare/workers-types": "catalog:",
+    "@types/node": "catalog:",
     "typescript": "catalog:"
   }
 }

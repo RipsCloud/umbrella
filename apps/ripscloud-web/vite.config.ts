@@ -5,9 +5,9 @@ import { defineConfig } from "vite";
 import { fileURLToPath } from "url";
 
 // See root README › Local dev.
-//   8830 — apps/api worker http
-//   8833 — apps/api inspector
-//   8836 — apps/web vite dev server (this file)
+//   8830 — apps/ripscloud-api worker http
+//   8833 — apps/ripscloud-api inspector
+//   8836 — apps/ripscloud-web vite dev server (this file)
 export default defineConfig({
   plugins: [TanStackRouterVite(), react(), tailwindcss()],
   resolve: {

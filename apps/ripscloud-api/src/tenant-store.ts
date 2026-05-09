@@ -2,7 +2,7 @@ import type {
   CredentialsProvider,
   SisproCredentials,
   TokenStore,
-} from "@ripscloud/client";
+} from "@ripscloud/ripscloud-client";
 
 const DO_ORIGIN = "https://tenant.internal";
 

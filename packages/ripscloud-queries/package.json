@@ -1,5 +1,5 @@
 {
-  "name": "@ripscloud/commands",
+  "name": "@ripscloud/ripscloud-queries",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,9 +11,9 @@
     "lint": "tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {
-    "@ripscloud/db": "workspace:*",
-    "@ripscloud/domain": "workspace:*",
-    "@ripscloud/logger": "workspace:*",
+    "@ripscloud/ripscloud-db": "workspace:*",
+    "@ripscloud/ripscloud-domain": "workspace:*",
+    "@ripscloud/ripscloud-logger": "workspace:*",
     "drizzle-orm": "catalog:"
   },
   "devDependencies": {

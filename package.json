@@ -9,19 +9,21 @@
   },
   "scripts": {
     "dev": "turbo dev",
-    "dev:api": "pnpm --filter @ripscloud/api run dev",
-    "dev:web": "pnpm --filter @ripscloud/web run dev",
+    "dev:ripscloud": "turbo dev --filter \"@ripscloud/ripscloud-*\"",
+    "dev:ripscloud-api": "pnpm --filter @ripscloud/ripscloud-api run dev",
+    "dev:ripscloud-web": "pnpm --filter @ripscloud/ripscloud-web run dev",
     "build": "turbo build",
+    "build:ripscloud": "turbo build --filter \"@ripscloud/ripscloud-*\"",
+    "build:packages": "pnpm -r --filter \"./packages/*\" run build",
     "lint": "turbo run lint",
     "test": "pnpm -r --parallel run test",
     "typecheck": "pnpm -r --parallel run lint",
-    "db:migrate": "pnpm --filter @ripscloud/api run db:migrate",
-    "db:migrate:remote": "pnpm --filter @ripscloud/api run db:migrate:remote",
-    "db:seed": "pnpm --filter @ripscloud/api run db:seed",
-    "setup": "pnpm db:migrate",
-    "ship": "pnpm ship:api && pnpm ship:web",
-    "ship:api": "pnpm --filter @ripscloud/api run ship",
-    "ship:web": "pnpm --filter @ripscloud/web run ship",
+    "db:migrate:ripscloud-api": "pnpm --filter @ripscloud/ripscloud-api run db:migrate",
+    "db:migrate:ripscloud-api:remote": "pnpm --filter @ripscloud/ripscloud-api run db:migrate:remote",
+    "setup:ripscloud": "pnpm db:migrate:ripscloud-api",
+    "ship:ripscloud": "pnpm ship:ripscloud-api && pnpm ship:ripscloud-web",
+    "ship:ripscloud-api": "pnpm --filter @ripscloud/ripscloud-api run ship",
+    "ship:ripscloud-web": "pnpm --filter @ripscloud/ripscloud-web run ship",
     "clean": "find . -name 'node_modules' -prune -not -path './.git/*' | xargs rm -rf && find . -name 'dist' -prune -not -path './.git/*' -not -path './node_modules/*' | xargs rm -rf && find . -name '.turbo' -prune -not -path './.git/*' | xargs rm -rf && find . -name '.wrangler' -prune -not -path './.git/*' | xargs rm -rf",
     "nuke": "pnpm clean && rm -f pnpm-lock.yaml"
   },
@@ -32,8 +34,8 @@
     ]
   },
   "devDependencies": {
-    "turbo": "2.9.9",
-    "typescript": "6.0.3",
+    "turbo": "catalog:",
+    "typescript": "catalog:",
     "wrangler": "catalog:"
   }
 }

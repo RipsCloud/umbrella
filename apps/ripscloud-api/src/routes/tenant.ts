@@ -2,8 +2,8 @@ import { Hono } from "hono";
 import {
   createAuthenticatedFetch,
   type SisproCredentials,
-} from "@ripscloud/client";
-import { createLogger } from "@ripscloud/logger";
+} from "@ripscloud/ripscloud-client";
+import { createLogger } from "@ripscloud/ripscloud-logger";
 
 import type { Bindings, Variables } from "../env";
 import {
@@ -95,7 +95,7 @@ async function handleLoginIntercept(
   });
 }
 
-// --- Generic proxy for everything else under /:tenant/api/* -------
+// --- Generic proxy for everything else under /:tenant/api/* -----------------
 
 app.all("/:tenant/api/*", async (c) => {
   const tenant = c.get("tenant");

@@ -1,8 +1,8 @@
 import { eq } from "drizzle-orm";
-import type { Database } from "@ripscloud/db";
-import { examples } from "@ripscloud/db";
-import type { ExampleResponse } from "@ripscloud/domain";
-import type { Logger } from "@ripscloud/logger";
+import type { Database } from "@ripscloud/ripscloud-db";
+import { examples } from "@ripscloud/ripscloud-db";
+import type { ExampleResponse } from "@ripscloud/ripscloud-domain";
+import type { Logger } from "@ripscloud/ripscloud-logger";
 
 type Deps = {
   db: Database;

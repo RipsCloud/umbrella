@@ -1,4 +1,4 @@
-import type { SisproCredentials } from "@ripscloud/client";
+import type { SisproCredentials } from "@ripscloud/ripscloud-client";
 
 type TokenEntry = { token: string; expiresAt: number };
 

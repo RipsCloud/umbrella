@@ -1,4 +1,4 @@
-import type { LogLevel } from "@ripscloud/logger";
+import type { LogLevel } from "@ripscloud/ripscloud-logger";
 
 export type Bindings = {
   LOG_LEVEL: LogLevel;

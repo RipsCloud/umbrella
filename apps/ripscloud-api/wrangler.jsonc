@@ -7,7 +7,7 @@
   "workers_dev": false,
 
   // Local dev ports — see root README › Local dev.
-  // 8830 worker http · 8833 inspector · 8836 web (vite, see apps/web/vite.config.ts)
+  // 8830 worker http · 8833 inspector · 8836 web (vite, see apps/ripscloud-web/vite.config.ts)
   "dev": {
     "port": 8830,
     "inspector_port": 8833
@@ -58,7 +58,7 @@
   ],
 
   // Top-level d1_databases drives `wrangler dev`. No `remote: true` here so
-  // dev writes to a local SQLite via miniflare (run `pnpm db:migrate` to
+  // dev writes to a local SQLite via miniflare (run `pnpm db:migrate:ripscloud-api` to
   // apply schema). The same DB id is used in env.production with
   // `remote: true` for the deployed Worker.
   "d1_databases": [
@@ -67,7 +67,7 @@
       "database_name": "ripscloud-db",
       "database_id": "REPLACE_WITH_D1_ID",
       "preview_database_id": "REPLACE_WITH_D1_ID",
-      "migrations_dir": "../../packages/db/drizzle"
+      "migrations_dir": "../../packages/ripscloud-db/drizzle"
     }
   ],
 
@@ -86,7 +86,7 @@
     }
   ],
 
-  // === Production overrides. Used by `pnpm ship:api`
+  // === Production overrides. Used by `pnpm ship:ripscloud-api`
   // (wrangler deploy --env production). ===
   // Wrangler does NOT inherit vars/d1/r2/kv/durable_objects/migrations from
   // the top level into named environments — every env must redeclare what it
@@ -122,7 +122,7 @@
           "database_name": "ripscloud-db",
           "database_id": "REPLACE_WITH_D1_ID",
           "preview_database_id": "REPLACE_WITH_D1_ID",
-          "migrations_dir": "../../packages/db/drizzle",
+          "migrations_dir": "../../packages/ripscloud-db/drizzle",
           "remote": true
         }
       ],

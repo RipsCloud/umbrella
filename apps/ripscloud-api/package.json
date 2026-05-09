@@ -1,5 +1,5 @@
 {
-  "name": "@ripscloud/api",
+  "name": "@ripscloud/ripscloud-api",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -15,12 +15,12 @@
   "dependencies": {
     "@hono/swagger-ui": "catalog:",
     "@hono/zod-openapi": "catalog:",
-    "@ripscloud/client": "workspace:*",
-    "@ripscloud/commands": "workspace:*",
-    "@ripscloud/db": "workspace:*",
-    "@ripscloud/domain": "workspace:*",
-    "@ripscloud/logger": "workspace:*",
-    "@ripscloud/queries": "workspace:*",
+    "@ripscloud/ripscloud-client": "workspace:*",
+    "@ripscloud/ripscloud-commands": "workspace:*",
+    "@ripscloud/ripscloud-db": "workspace:*",
+    "@ripscloud/ripscloud-domain": "workspace:*",
+    "@ripscloud/ripscloud-logger": "workspace:*",
+    "@ripscloud/ripscloud-queries": "workspace:*",
     "drizzle-orm": "catalog:",
     "hono": "catalog:",
     "zod": "catalog:"
