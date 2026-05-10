@@ -10,7 +10,7 @@ A high-level overview lives in [`README.md`](./README.md). This file is the cont
 ripscloud/
 ├── apps/
 │   ├── ripscloud-api/    # Cloudflare Worker (Hono + zod-openapi)
-│   └── ripscloud-web/    # Cloudflare Pages (Vite + React 19 + TanStack Router)
+│   └── ripscloud-web/    # Cloudflare Pages (Vite + React 19 + React Router)
 ├── packages/
 │   ├── ripscloud-client/   # OpenAPI-typed client + auth-injecting fetch (zero workspace deps)
 │   ├── ripscloud-domain/   # Pure domain types + zod schemas
@@ -46,7 +46,7 @@ pnpm dev:ripscloud-api         # just the worker — http://localhost:8830 (insp
 pnpm dev:ripscloud-web         # just the web   — http://localhost:8836
 ```
 
-The API binds **8830/8833** and the web binds **8836** (strict ports, configured in `apps/ripscloud-api/wrangler.jsonc` and `apps/ripscloud-web/vite.config.ts`). Don't put port numbers in `package.json` scripts — keep them in the per-app config so `pnpm dev:*` stays portable.
+Rips Cloud owns the isolated local port segment **8830–8839**. The API binds **8830/8833** and the web binds **8836** (strict ports, configured in `apps/ripscloud-api/wrangler.jsonc` and `apps/ripscloud-web/vite.config.ts`). Don't put port numbers in `package.json` scripts — keep them in the per-app config so `pnpm dev:*` stays portable. The MatrixMD monorepo keeps this same block reserved to avoid localhost collisions.
 
 ### Local-first migrations
 
@@ -81,25 +81,26 @@ Don't hardcode `wrangler deploy …` calls anywhere else — go through `pnpm sh
 
 ## Cloudflare convention
 
-- `apps/ripscloud-api` is a Worker. Its `wrangler.jsonc` declares `name = "ripscloud-api"` and binds `DB` (D1 `ripscloud-db`), `FILES` (R2 `ripscloud-files`), `TOKENS` (KV — id placeholder until provisioned), and `TENANT` (Durable Object class `TenantDO`, SQLite-backed).
+- `apps/ripscloud-api` is a Worker. Its `wrangler.jsonc` declares `name = "ripscloud-api"` and binds `DB` (D1 `ripscloud-db`), `FILES` (R2 `ripscloud-files`), `TOKENS` (KV `ripscloud-tokens`), and `TENANT` (Durable Object class `TenantDO`, SQLite-backed).
 - `apps/ripscloud-web` is a Cloudflare Pages project (`ripscloud-web`).
 - Account: **Pah Venture** (`c318b2a1f2703c2869296fc0fed58362`). All ripscloud Workers, Pages, D1, KV, R2 live there.
 - Long-lived secrets (R2 dev tokens, the GitHub Actions super-admin token) are managed via the `pahventure-ops` skill. Don't roll your own `wrangler login` flow.
 
-### Production placeholders
+### Production resources
 
-Until the prod resources are provisioned and the prod domains confirmed, the following sit as `REPLACE_WITH_*` / `TODO` markers in `apps/ripscloud-api/wrangler.jsonc`:
+The production Cloudflare resources are provisioned in the Pah Venture account:
 
-- `database_id` (D1) and `id` (KV)
-- `routes[].pattern` (custom domain — currently `api.ripscloud.com`, marked TODO)
-- `ALLOWED_ORIGINS` in `env.production.vars` (currently `https://app.ripscloud.com`, marked TODO)
-
-Resolve these before `pnpm ship:ripscloud-api` against production.
+- D1 `ripscloud-db` (`d0556ebf-00eb-4ab4-8375-91469da698e6`)
+- KV `ripscloud-tokens` (`3aabc5d0381f4d0f8e80d8c30ec2403f`)
+- R2 `ripscloud-files`
+- Pages `ripscloud-web`
+- Worker production URL `https://ripscloud-api.pahventure.workers.dev`
+- Intended Worker custom domain route `api.ripscloud.com` once the `ripscloud.com` zone is onboarded
 
 ## Stack
 
 - **API** — Cloudflare Workers + Hono + `@hono/zod-openapi` + Swagger/Scalar UI
-- **Web** — Vite + React 19 + TanStack Router + TanStack Query
+- **Web** — Vite + React 19 + React Router, migrated from the legacy RIPS Admin client
 - **Versioning** — `/api/v1/<...>` prefix (TBD on this repo — current routes are `/{tenant}/api/...` mirroring the upstream)
 - **DB** — Cloudflare D1 + Drizzle ORM (`packages/ripscloud-db`)
 - **Auth to upstream** — `@ripscloud/ripscloud-client` ships an `openapi-fetch` middleware that auto-logs into SISPRO, caches the token in a pluggable `TokenStore` (KV + memory shipped in-package), deduplicates concurrent logins, and retries once on 401.

@@ -8,6 +8,20 @@
       "when": 1778151933270,
       "tag": "0000_military_may_parker",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1778369561023,
+      "tag": "0001_complete_warhawk",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1778371251124,
+      "tag": "0002_flippant_morbius",
+      "breakpoints": true
     }
   ]
 }

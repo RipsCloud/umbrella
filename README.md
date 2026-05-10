@@ -40,13 +40,17 @@ A multi-tenant manager over the Colombian Ministry FEV RIPS / SISPRO upstream. S
 
 The API never talks to the upstream from the browser — every call is mediated by the worker, which keeps SISPRO credentials and the JWT in a per-tenant Durable Object (one DO instance per `tenantKey`).
 
+## RIPS Admin migration
+
+The legacy RIPS Admin project from `/Users/carlos/source/pahventure/pahventure-rips-admin` is being migrated into this workspace without carrying over the .NET runtime. The Cloudflare target uses the same two-plane storage model as Rips Cloud: global D1 tables control tenants/users/workspaces, and each tenant has an isolated SQLite-backed `TenantDO` for RIPS Admin operational data. Legacy-compatible auth, workspace CRUD, invoice/credit-note draft storage, reports, CSV/XLSX import helpers, Monaros and Ledger provider dispatch, SISPRO/RIPS submission through the DO credential/token store, SMTP resend for legacy ZIP email packages, retry/correction endpoints, provider document downloads from migrated dispatch attempts, and a dry-run-first PostgreSQL migration script now live in the Worker/workspace. See [`docs/rips-admin-migration.md`](./docs/rips-admin-migration.md) for the full route map, per-tenant collections, and migration command.
+
 ## Workspace shape
 
 ```
 ripscloud/
 ├── apps/
 │   ├── ripscloud-api/      # Cloudflare Worker (Hono) — the manager
-│   └── ripscloud-web/      # Cloudflare Pages (Vite + React 19 + TanStack Router)
+│   └── ripscloud-web/      # Cloudflare Pages (Vite + React 19 + React Router)
 ├── packages/
 │   ├── ripscloud-client/   # OpenAPI-typed client + auth-injecting fetch
 │   ├── ripscloud-commands/ # CQRS write side
@@ -76,7 +80,7 @@ pnpm dev:ripscloud-web
 pnpm dev:ripscloud
 ```
 
-The API binds to **8830** and the web to **8836** locally — keep these stable so `apps/ripscloud-web/.env.development` (`VITE_API_URL=http://localhost:8830`) keeps working.
+Rips Cloud owns the isolated local port segment **8830–8839**. Within that block the API binds to **8830**, the Worker inspector to **8833**, and the web app to **8836**. Keep these stable so `apps/ripscloud-web/.env.development` (`VITE_API_URL=http://localhost:8830`) keeps working and so the MatrixMD monorepo can keep this block reserved for Rips Cloud.
 
 ## Deploy
 
@@ -90,10 +94,10 @@ pnpm ship:ripscloud-web      # just the Pages site
 
 Production deploy targets:
 
-- Worker: `ripscloud-api` (route TBD — see `apps/ripscloud-api/wrangler.jsonc` `env.production.routes`)
-- Pages project: `ripscloud-web`
+- Worker: `ripscloud-api` (`https://ripscloud-api.pahventure.workers.dev`; intended custom domain `https://api.ripscloud.com` once the zone is onboarded)
+- Pages project: `ripscloud-web` (`https://ripscloud-web.pages.dev`, latest deployment `https://62724d9c.ripscloud-web.pages.dev`, production app origin `https://app.ripscloud.com`)
 - D1: `ripscloud-db`
-- KV: `TOKENS` (id placeholder until provisioned)
+- KV: `ripscloud-tokens` bound as `TOKENS`
 - R2: `ripscloud-files`
 
 ## Where to look for what
@@ -105,3 +109,4 @@ Production deploy targets:
 | How do the auth / token flows work? | `apps/ripscloud-api/src/routes/tenant.ts` and `packages/ripscloud-client/src/middleware/auth.ts` |
 | How do I add a route? | Hono pattern in `apps/ripscloud-api/src/routes/tenant.ts` |
 | How do I add a table? | `packages/ripscloud-db/src/schema.ts` then `pnpm --filter @ripscloud/ripscloud-db generate` |
+| How is RIPS Admin being migrated? | [`docs/rips-admin-migration.md`](./docs/rips-admin-migration.md) |

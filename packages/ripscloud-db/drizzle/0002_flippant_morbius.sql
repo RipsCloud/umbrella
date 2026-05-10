@@ -1,0 +1,1 @@
+ALTER TABLE `rips_admin_tenants` ADD `invoice_api_token` text;

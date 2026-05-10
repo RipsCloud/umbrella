@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "name": "Plan de beneficios en salud financiado con UPC",
+    "code": "01",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Presupuesto máximo",
+    "code": "02",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Prima EPS/EOC, no asegurados SOAT",
+    "code": "03",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Cobertura Póliza SOAT",
+    "code": "04",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Cobertura ARL",
+    "code": "05",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 6,
+    "name": "Cobertura ADRES",
+    "code": "06",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 7,
+    "name": "Cobertura Salud Pública",
+    "code": "07",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 8,
+    "name": "Cobertura entidad territorial, recursos de oferta",
+    "code": "08",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 9,
+    "name": "Urgencias población migrante",
+    "code": "09",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 10,
+    "name": "Plan complementario en salud",
+    "code": "10",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 11,
+    "name": "Plan medicina prepagada",
+    "code": "11",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 12,
+    "name": "Otras pólizas en salud",
+    "code": "12",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 13,
+    "name": "Cobertura Régimen Especial o Excepción",
+    "code": "13",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 14,
+    "name": "Cobertura Fondo Nacional de Salud de las Personas Privadas de la Libertad",
+    "code": "14",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 15,
+    "name": "Particular",
+    "code": "15",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  }
+]

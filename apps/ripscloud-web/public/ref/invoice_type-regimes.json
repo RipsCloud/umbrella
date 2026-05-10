@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Responsable de IVA",
+    "code": "48",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 2,
+    "name": "No Responsable de IVA",
+    "code": "49",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  }
+]

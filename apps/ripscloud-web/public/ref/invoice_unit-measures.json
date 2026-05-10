@@ -1,0 +1,7653 @@
+[
+  {
+    "id": 1,
+    "name": "spray pequeño",
+    "code": "04",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 2,
+    "name": "levantar",
+    "code": "05",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Lote calor",
+    "code": "08",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 4,
+    "name": "grupo",
+    "code": "10",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 5,
+    "name": "equipar",
+    "code": "11",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 6,
+    "name": "ración",
+    "code": "13",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 7,
+    "name": "Disparo",
+    "code": "14",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 8,
+    "name": "palo",
+    "code": "15",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 9,
+    "name": "tambor de ciento quince kg",
+    "code": "16",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 10,
+    "name": "tambor de cien libras",
+    "code": "17",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 11,
+    "name": "tambor de cincuenta y cinco galones (US)",
+    "code": "18",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 12,
+    "name": "camión cisterna",
+    "code": "19",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 13,
+    "name": "contenedor de veinte pies",
+    "code": "20",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 14,
+    "name": "contenedor de cuarenta pies",
+    "code": "21",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 15,
+    "name": "decilitro por gramo",
+    "code": "22",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 16,
+    "name": "gramo por centímetro cúbico",
+    "code": "23",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 17,
+    "name": "libra teórica",
+    "code": "24",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 18,
+    "name": "gramo por centímetro cuadrado",
+    "code": "25",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 19,
+    "name": "tonelada real",
+    "code": "26",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 20,
+    "name": "tonelada teórica",
+    "code": "27",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 21,
+    "name": "kilogramo por metro cuadrado",
+    "code": "28",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 22,
+    "name": "libra por mil pies cuadrados",
+    "code": "29",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 23,
+    "name": "Día de potencia del caballo por tonelada métrica seca al aire.",
+    "code": "30",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 24,
+    "name": "coger peso",
+    "code": "31",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 25,
+    "name": "kilogramo por aire seco tonelada métrica",
+    "code": "32",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 26,
+    "name": "kilopascales metros cuadrados por gramo",
+    "code": "33",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 27,
+    "name": "kilopascales por milímetro",
+    "code": "34",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 28,
+    "name": "mililitros por centímetro cuadrado segundo",
+    "code": "35",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 29,
+    "name": "pies cúbicos por minuto por pie cuadrado",
+    "code": "36",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 30,
+    "name": "onza por pie cuadrado",
+    "code": "37",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 31,
+    "name": "onzas por pie cuadrado por 0,01 pulgadas",
+    "code": "38",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 32,
+    "name": "mililitro por segundo",
+    "code": "40",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 33,
+    "name": "mililitro por minuto",
+    "code": "41",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 34,
+    "name": "bolsa súper a granel",
+    "code": "43",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 35,
+    "name": "bolsa a granel de quinientos kg",
+    "code": "44",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 36,
+    "name": "bolsa a granel de trescientos kg",
+    "code": "45",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 37,
+    "name": "bolsa a granel de cincuenta libras",
+    "code": "46",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 38,
+    "name": "bolsa de cincuenta libras",
+    "code": "47",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 39,
+    "name": "carga de automóviles a granel",
+    "code": "48",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 40,
+    "name": "kilogramos teóricos",
+    "code": "53",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 41,
+    "name": "tonelada teórica",
+    "code": "54",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 42,
+    "name": "sitas",
+    "code": "56",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 43,
+    "name": "malla",
+    "code": "57",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 44,
+    "name": "kilogramo neto",
+    "code": "58",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 45,
+    "name": "parte por millón",
+    "code": "59",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 46,
+    "name": "porcentaje de peso",
+    "code": "60",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 47,
+    "name": "parte por billón (US)",
+    "code": "61",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 48,
+    "name": "porcentaje por 1000 horas",
+    "code": "62",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 49,
+    "name": "tasa de fracaso en el tiempo",
+    "code": "63",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 50,
+    "name": "libra por pulgada cuadrada, calibre",
+    "code": "64",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 51,
+    "name": "Oersted",
+    "code": "66",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 52,
+    "name": "prueba de escala específica",
+    "code": "69",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 53,
+    "name": "voltio amperio por libra",
+    "code": "71",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 54,
+    "name": "vatio por libra",
+    "code": "72",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 55,
+    "name": "amperio tum por centímetro",
+    "code": "73",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 56,
+    "name": "milipascal",
+    "code": "74",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 57,
+    "name": "gauss",
+    "code": "76",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 58,
+    "name": "mili pulgadas",
+    "code": "77",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 59,
+    "name": "kilogauss",
+    "code": "78",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 60,
+    "name": "libras por pulgada cuadrada absoluta",
+    "code": "80",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 61,
+    "name": "Enrique",
+    "code": "81",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 62,
+    "name": "kilopound por pulgada cuadrada",
+    "code": "84",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 63,
+    "name": "fuerza libra pie",
+    "code": "85",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 64,
+    "name": "libra por pie cúbico",
+    "code": "87",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 65,
+    "name": "equilibrio",
+    "code": "89",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 66,
+    "name": "Saybold segundo universal",
+    "code": "90",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 67,
+    "name": "alimenta",
+    "code": "91",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 68,
+    "name": "calorías por centímetro cúbico",
+    "code": "92",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 69,
+    "name": "calorías por gramo",
+    "code": "93",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 70,
+    "name": "Unidad",
+    "code": "94",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 71,
+    "name": "veinte mil galones (US) de carros",
+    "code": "95",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 72,
+    "name": "diez mil galones (US) de carros",
+    "code": "96",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 73,
+    "name": "tambor de diez kg",
+    "code": "97",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 74,
+    "name": "tambor de quince kg",
+    "code": "98",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 75,
+    "name": "milla de coche",
+    "code": "1ª",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 76,
+    "name": "recuento de coches",
+    "code": "1B",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 77,
+    "name": "recuento de locomotoras",
+    "code": "1C",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 78,
+    "name": "recuento de cabos",
+    "code": "1D",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 79,
+    "name": "carro vacio",
+    "code": "1E",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 80,
+    "name": "millas de tren",
+    "code": "1F",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 81,
+    "name": "uso de combustible galón (US)",
+    "code": "1G",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 82,
+    "name": "milla del caboose",
+    "code": "1H",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 83,
+    "name": "tipo de interés fijo",
+    "code": "1I",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 84,
+    "name": "tonelada milla",
+    "code": "1J",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 85,
+    "name": "milla locomotora",
+    "code": "1K",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 86,
+    "name": "recuento total de coches",
+    "code": "1L",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 87,
+    "name": "milla de coche total",
+    "code": "1M",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 88,
+    "name": "cuarto de milla",
+    "code": "1X",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 89,
+    "name": "radianes por segundo",
+    "code": "2ª",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 90,
+    "name": "radianes por segundo al cuadrado",
+    "code": "2B",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 91,
+    "name": "Röntgen",
+    "code": "2C",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 92,
+    "name": "Unidad térmica británica por hora.",
+    "code": "2I",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 93,
+    "name": "centímetro cúbico por segundo",
+    "code": "2J",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 94,
+    "name": "pie cúbico por hora",
+    "code": "2K",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 95,
+    "name": "pie cúbico por minuto",
+    "code": "2L",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 96,
+    "name": "centímetro por segundo",
+    "code": "2M",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 97,
+    "name": "decibel",
+    "code": "2N",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 98,
+    "name": "kilobyte",
+    "code": "2P",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 99,
+    "name": "kilobecquerel",
+    "code": "2Q",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 100,
+    "name": "kilocurie",
+    "code": "2R",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 101,
+    "name": "megagramo",
+    "code": "2U",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 102,
+    "name": "megagramo por hora",
+    "code": "2V",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 103,
+    "name": "compartimiento",
+    "code": "2W",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 104,
+    "name": "metro por minuto",
+    "code": "2X",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 105,
+    "name": "milliröntgen",
+    "code": "2Y",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 106,
+    "name": "milivoltios",
+    "code": "2Z",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 107,
+    "name": "megajulio",
+    "code": "3B",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 108,
+    "name": "manmonth",
+    "code": "3C",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 109,
+    "name": "libra por libra de producto",
+    "code": "3E",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 110,
+    "name": "libra por pieza de producto",
+    "code": "3G",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 111,
+    "name": "kilogramo por kilogramo de producto",
+    "code": "3H",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 112,
+    "name": "kilogramo por pieza de producto",
+    "code": "3I",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 113,
+    "name": "bobina",
+    "code": "4ª",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 114,
+    "name": "gorra",
+    "code": "4B",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 115,
+    "name": "centistokes",
+    "code": "4C",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 116,
+    "name": "paquete de veinte",
+    "code": "4E",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 117,
+    "name": "microlitro",
+    "code": "4G",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 118,
+    "name": "micrometro",
+    "code": "4H",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 119,
+    "name": "miliamperio",
+    "code": "4K",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 120,
+    "name": "megabyte",
+    "code": "4L",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 121,
+    "name": "miligramo por hora",
+    "code": "4M",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 122,
+    "name": "megabecquerel",
+    "code": "4N",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 123,
+    "name": "microfarad",
+    "code": "4º",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 124,
+    "name": "newton por metro",
+    "code": "4P",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 125,
+    "name": "onza pulgada",
+    "code": "4Q",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 126,
+    "name": "pie onza",
+    "code": "4R",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 127,
+    "name": "picofarad",
+    "code": "4T",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 128,
+    "name": "libra por hora",
+    "code": "4U",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 129,
+    "name": "tonelada (US) por hora",
+    "code": "4W",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 130,
+    "name": "kilolitro por hora",
+    "code": "4X",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 131,
+    "name": "barril por minuto",
+    "code": "5ª",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 132,
+    "name": "lote",
+    "code": "5B",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 133,
+    "name": "galón (US) por mil",
+    "code": "5C",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 134,
+    "name": "MMSCF / día",
+    "code": "5E",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 135,
+    "name": "libras por mil",
+    "code": "5F",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 136,
+    "name": "bomba",
+    "code": "5G",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 137,
+    "name": "escenario",
+    "code": "5H",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 138,
+    "name": "pie cúbico estándar",
+    "code": "5I",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 139,
+    "name": "potencia hidráulica de caballos",
+    "code": "5J",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 140,
+    "name": "contar por minuto",
+    "code": "5K",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 141,
+    "name": "nivel sismico",
+    "code": "5P",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 142,
+    "name": "nfor sismica",
+    "code": "5Q",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 143,
+    "name": "15 calorías C",
+    "code": "A1",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 144,
+    "name": "amperio metro cuadrado por joule segundo",
+    "code": "A10",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 145,
+    "name": "Ã ¥ ngström",
+    "code": "A11",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 146,
+    "name": "unidad astronómica",
+    "code": "A12",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 147,
+    "name": "attojoule",
+    "code": "A13",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 148,
+    "name": "granero",
+    "code": "A14",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 149,
+    "name": "granero por electrón voltio",
+    "code": "A15",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 150,
+    "name": "granero por voltio de electrones esteradiano,",
+    "code": "A16",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 151,
+    "name": "granero por sterdian",
+    "code": "A17",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 152,
+    "name": "becquerel por kilogramo",
+    "code": "A18",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 153,
+    "name": "becquerel por metro cúbico",
+    "code": "A19",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 154,
+    "name": "amperio por centímetro",
+    "code": "A2",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 155,
+    "name": "Unidad térmica británica por segundo pie cuadrado grado Rankin",
+    "code": "A20",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 156,
+    "name": "Unidad térmica británica por libra grado Rankin",
+    "code": "A21",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 157,
+    "name": "Unidad térmica británica por segundo pie grado Rankin",
+    "code": "A22",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 158,
+    "name": "Unidad térmica británica por hora pie cuadrado grado Rankin",
+    "code": "A23",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 159,
+    "name": "candela por metro cuadrado",
+    "code": "A24",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 160,
+    "name": "cheval vapeur",
+    "code": "A25",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 161,
+    "name": "medidor de culombio",
+    "code": "A26",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 162,
+    "name": "medidor de culombio al cuadrado por voltio",
+    "code": "A27",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 163,
+    "name": "Coulomb por centímetro cúbico",
+    "code": "A28",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 164,
+    "name": "Coulomb por metro cúbico",
+    "code": "A29",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 165,
+    "name": "amperio por milímetro",
+    "code": "A3",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 166,
+    "name": "Coulomb por milímetro cúbico",
+    "code": "A30",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 167,
+    "name": "Coulomb por kilogramo segundo",
+    "code": "A31",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 168,
+    "name": "Coulomb por mol",
+    "code": "A32",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 169,
+    "name": "Coulomb por centímetro cuadrado",
+    "code": "A33",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 170,
+    "name": "Coulomb por metro cuadrado",
+    "code": "A34",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 171,
+    "name": "Coulomb por milímetro cuadrado",
+    "code": "A35",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 172,
+    "name": "centímetro cúbico por mol",
+    "code": "A36",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 173,
+    "name": "nformaci cúbico por mol",
+    "code": "A37",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 174,
+    "name": "metro cúbico por coulomb",
+    "code": "A38",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 175,
+    "name": "metro cúbico por kilogramo",
+    "code": "A39",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 176,
+    "name": "amperio por centímetro cuadrado",
+    "code": "A4",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 177,
+    "name": "metro cúbico por mol",
+    "code": "A40",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 178,
+    "name": "amperio por metro cuadrado",
+    "code": "A41",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 179,
+    "name": "curie por kilogramo",
+    "code": "A42",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 180,
+    "name": "tonelaje de peso muerto",
+    "code": "A43",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 181,
+    "name": "decalitro",
+    "code": "A44",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 182,
+    "name": "decámetro",
+    "code": "A45",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 183,
+    "name": "decitex",
+    "code": "A47",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 184,
+    "name": "grado Rankin",
+    "code": "A48",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 185,
+    "name": "negador",
+    "code": "A49",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 186,
+    "name": "amperio metro cuadrado",
+    "code": "A5",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 187,
+    "name": "dyn segundo por centímetro cúbico",
+    "code": "A50",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 188,
+    "name": "dina segundo por centímetro",
+    "code": "A51",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 189,
+    "name": "dina segundo por centímetro al quinto",
+    "code": "A52",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 190,
+    "name": "electronvolt",
+    "code": "A53",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 191,
+    "name": "electronvoltio por metro",
+    "code": "A54",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 192,
+    "name": "metro electronvolt cuadrado",
+    "code": "A55",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 193,
+    "name": "electronvoltio de metro cuadrado por kilogramo",
+    "code": "A56",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 194,
+    "name": "ergio",
+    "code": "A57",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 195,
+    "name": "erg por centímetro",
+    "code": "A58",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 196,
+    "name": "amperio por metro cuadrado kelvin al cuadrado",
+    "code": "A6",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 197,
+    "name": "erg por centímetro cúbico",
+    "code": "A60",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 198,
+    "name": "erg por gramo",
+    "code": "A61",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 199,
+    "name": "erg por gramo de segundo",
+    "code": "A62",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 200,
+    "name": "erg por segundo",
+    "code": "A63",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 201,
+    "name": "erg por segundo centímetro cuadrado",
+    "code": "A64",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 202,
+    "name": "erg por centímetro cuadrado segundo",
+    "code": "A65",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 203,
+    "name": "erg centímetro cuadrado",
+    "code": "A66",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 204,
+    "name": "ergímetro cuadrado por gramo",
+    "code": "A67",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 205,
+    "name": "exajulio",
+    "code": "A68",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 206,
+    "name": "faradio por metro",
+    "code": "A69",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 207,
+    "name": "amperio por milímetro cuadrado",
+    "code": "A7",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 208,
+    "name": "femtojoule",
+    "code": "A70",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 209,
+    "name": "femtometro",
+    "code": "A71",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 210,
+    "name": "pie por segundo al cuadrado",
+    "code": "A73",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 211,
+    "name": "pie-fuerza de la libra por segundo",
+    "code": "A74",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 212,
+    "name": "tonelada de carga",
+    "code": "A75",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 213,
+    "name": "galón",
+    "code": "A76",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 214,
+    "name": "Unidad de desplazamiento CGS gaussiana",
+    "code": "A77",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 215,
+    "name": "Unidad gaussiana CGS de corriente eléctrica.",
+    "code": "A78",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 216,
+    "name": "Unidad Gaussian CGS de carga eléctrica.",
+    "code": "A79",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 217,
+    "name": "amperio segundo",
+    "code": "A8",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 218,
+    "name": "Unidad Gaussian CGS de intensidad de campo eléctrico.",
+    "code": "A80",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 219,
+    "name": "Unidad Gaussian CGS de polarización eléctrica.",
+    "code": "A81",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 220,
+    "name": "Unidad Gaussian CGS de potencial eléctrico.",
+    "code": "A82",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 221,
+    "name": "Unidad Gaussiana CGS de magnetización.",
+    "code": "A83",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 222,
+    "name": "gigacoulomb por metro cúbico",
+    "code": "A84",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 223,
+    "name": "Gigaelectronvolt",
+    "code": "A85",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 224,
+    "name": "gigahercios",
+    "code": "A86",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 225,
+    "name": "gigaohm",
+    "code": "A87",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 226,
+    "name": "medidor de gigaohm",
+    "code": "A88",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 227,
+    "name": "gigapascal",
+    "code": "A89",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 228,
+    "name": "tarifa",
+    "code": "A9",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 229,
+    "name": "gigavatios",
+    "code": "A90",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 230,
+    "name": "gon",
+    "code": "A91",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 231,
+    "name": "gramo por metro cúbico",
+    "code": "A93",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 232,
+    "name": "gramo por mol",
+    "code": "A94",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 233,
+    "name": "gris",
+    "code": "A95",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 234,
+    "name": "gris por segundo",
+    "code": "A96",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 235,
+    "name": "hectopascal",
+    "code": "A97",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 236,
+    "name": "Henry por metro",
+    "code": "A98",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 237,
+    "name": "bola",
+    "code": "AA",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 238,
+    "name": "paquete a granel",
+    "code": "AB",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 239,
+    "name": "acre",
+    "code": "ACR",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 240,
+    "name": "byte",
+    "code": "AD",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 241,
+    "name": "amperio por metro",
+    "code": "AE",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 242,
+    "name": "minuto adicional",
+    "code": "AH",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 243,
+    "name": "minuto promedio por llamada",
+    "code": "AI",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 244,
+    "name": "policía",
+    "code": "AJ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 245,
+    "name": "braza",
+    "code": "AK",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 246,
+    "name": "nfor de acceso",
+    "code": "AL",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 247,
+    "name": "ampolla",
+    "code": "AM",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 248,
+    "name": "hora amperio",
+    "code": "AMH",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 249,
+    "name": "amperio",
+    "code": "AMP",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 250,
+    "name": "año",
+    "code": "ANA",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 251,
+    "name": "solo libra de aluminio",
+    "code": "AP",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 252,
+    "name": "onza troy o onza de boticarios",
+    "code": "APZ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 253,
+    "name": "Unidad de factor antihemofílico (AHF)",
+    "code": "AQ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 254,
+    "name": "supositorio",
+    "code": "AR",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 255,
+    "name": "son",
+    "code": "SON",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 256,
+    "name": "surtido",
+    "code": "COMO",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 257,
+    "name": "fuerza alcohólica en masa",
+    "code": "ASM",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 258,
+    "name": "fuerza alcohólica por volumen",
+    "code": "ASU",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 259,
+    "name": "ambiente estándar",
+    "code": "ATM",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 260,
+    "name": "ambiente técnico",
+    "code": "ATT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 261,
+    "name": "cápsula",
+    "code": "AV",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 262,
+    "name": "vial lleno de polvo",
+    "code": "AW",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 263,
+    "name": "montaje",
+    "code": "SÍ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 264,
+    "name": "Unidad térmica británica por libra",
+    "code": "AZ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 265,
+    "name": "Btu por pie cúbico",
+    "code": "B0",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 266,
+    "name": "barril (US) por día",
+    "code": "B1",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 267,
+    "name": "julios por kilogramo kelvin",
+    "code": "B11",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 268,
+    "name": "julios por metro",
+    "code": "B12",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 269,
+    "name": "julios por metro cuadrado",
+    "code": "B13",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 270,
+    "name": "julios por metro a la cuarta potencia",
+    "code": "B14",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 271,
+    "name": "julios por mol",
+    "code": "B15",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 272,
+    "name": "julios por mol kelvin",
+    "code": "B16",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 273,
+    "name": "joule segundo",
+    "code": "B18",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 274,
+    "name": "litera",
+    "code": "B2",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 275,
+    "name": "joule metro cuadrado por kilogramo",
+    "code": "B20",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 276,
+    "name": "kelvin por vatio",
+    "code": "B21",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 277,
+    "name": "Kiloampere",
+    "code": "B22",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 278,
+    "name": "kiloampere por metro cuadrado",
+    "code": "B23",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 279,
+    "name": "kiloampere por metro",
+    "code": "B24",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 280,
+    "name": "kilobecquerel por kilogramo",
+    "code": "B25",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 281,
+    "name": "kilocoulomb",
+    "code": "B26",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 282,
+    "name": "kilocoulomb por metro cúbico",
+    "code": "B27",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 283,
+    "name": "kilocoulomb por metro cuadrado",
+    "code": "B28",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 284,
+    "name": "kiloelectronvolt",
+    "code": "B29",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 285,
+    "name": "libra de bateo",
+    "code": "B3",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 286,
+    "name": "kilogramo metro por segundo",
+    "code": "B31",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 287,
+    "name": "kilogramo metro cuadrado",
+    "code": "B32",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 288,
+    "name": "kilogramo metro cuadrado por segundo",
+    "code": "B33",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 289,
+    "name": "kilogramo por decímetro cúbico",
+    "code": "B34",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 290,
+    "name": "kilogramo por litro",
+    "code": "B35",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 291,
+    "name": "caloría termoquímica por gramo",
+    "code": "B36",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 292,
+    "name": "kilogramo de fuerza",
+    "code": "B37",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 293,
+    "name": "metro de fuerza de kilogramo",
+    "code": "B38",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 294,
+    "name": "metro de fuerza de kilogramo por segundo",
+    "code": "B39",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 295,
+    "name": "barril, imperial",
+    "code": "B4",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 296,
+    "name": "kilogramo de fuerza por metro cuadrado",
+    "code": "B40",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 297,
+    "name": "kilojoule per kelvin",
+    "code": "B41",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 298,
+    "name": "kilojoule por kilogramo",
+    "code": "B42",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 299,
+    "name": "kilojoule por kilogramo kelvin",
+    "code": "B43",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 300,
+    "name": "kilojoule por mol",
+    "code": "B44",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 301,
+    "name": "kilomol",
+    "code": "B45",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 302,
+    "name": "kilomol por metro cúbico",
+    "code": "B46",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 303,
+    "name": "Kilonewton",
+    "code": "B47",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 304,
+    "name": "medidor de kilonewton",
+    "code": "B48",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 305,
+    "name": "kiloohm",
+    "code": "B49",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 306,
+    "name": "palanquilla",
+    "code": "B5",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 307,
+    "name": "medidor de kiloohm",
+    "code": "B50",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 308,
+    "name": "kilopond",
+    "code": "B51",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 309,
+    "name": "kilosegundo",
+    "code": "B52",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 310,
+    "name": "kilosiemens",
+    "code": "B53",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 311,
+    "name": "kilosiemens por metro",
+    "code": "B54",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 312,
+    "name": "kilovoltios por metro",
+    "code": "B55",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 313,
+    "name": "kiloveber por metro",
+    "code": "B56",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 314,
+    "name": "año luz",
+    "code": "B57",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 315,
+    "name": "litro por mol",
+    "code": "B58",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 316,
+    "name": "hora lumen",
+    "code": "B59",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 317,
+    "name": "bollo",
+    "code": "B6",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 318,
+    "name": "lumen por metro cuadrado",
+    "code": "B60",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 319,
+    "name": "lumen por vatio",
+    "code": "B61",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 320,
+    "name": "lumen segundo",
+    "code": "B62",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 321,
+    "name": "hora de lux",
+    "code": "B63",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 322,
+    "name": "lux segundo",
+    "code": "B64",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 323,
+    "name": "Maxwell",
+    "code": "B65",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 324,
+    "name": "megaamperios por metro cuadrado",
+    "code": "B66",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 325,
+    "name": "megabecquerel por kilogramo",
+    "code": "B67",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 326,
+    "name": "megacoulomb por metro cúbico",
+    "code": "B69",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 327,
+    "name": "ciclo",
+    "code": "B7",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 328,
+    "name": "megacoulomb por metro cuadrado",
+    "code": "B70",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 329,
+    "name": "megaelectronvolt",
+    "code": "B71",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 330,
+    "name": "megagramo por metro cúbico",
+    "code": "B72",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 331,
+    "name": "meganewton",
+    "code": "B73",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 332,
+    "name": "medidor de meganewton",
+    "code": "B74",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 333,
+    "name": "megaohm",
+    "code": "B75",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 334,
+    "name": "metro megaohm",
+    "code": "B76",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 335,
+    "name": "megasiemens por metro",
+    "code": "B77",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 336,
+    "name": "megavoltio",
+    "code": "B78",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 337,
+    "name": "megavolt por metro",
+    "code": "B79",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 338,
+    "name": "julios por metro cúbico",
+    "code": "B8",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 339,
+    "name": "metro recíproco cuadrado recíproco segundo",
+    "code": "B81",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 340,
+    "name": "metro a la cuarta potencia",
+    "code": "B83",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 341,
+    "name": "microamperios",
+    "code": "B84",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 342,
+    "name": "microbar",
+    "code": "B85",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 343,
+    "name": "microcoulomb",
+    "code": "B86",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 344,
+    "name": "microcoulomb por metro cúbico",
+    "code": "B87",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 345,
+    "name": "microcoulomb por metro cuadrado",
+    "code": "B88",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 346,
+    "name": "microfarada por metro",
+    "code": "B89",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 347,
+    "name": "batt",
+    "code": "B9",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 348,
+    "name": "microhenry",
+    "code": "B90",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 349,
+    "name": "microhenry por metro",
+    "code": "B91",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 350,
+    "name": "micronewton",
+    "code": "B92",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 351,
+    "name": "medidor de micronewton",
+    "code": "B93",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 352,
+    "name": "microohm",
+    "code": "B94",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 353,
+    "name": "medidor de microohmios",
+    "code": "B95",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 354,
+    "name": "micropascal",
+    "code": "B96",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 355,
+    "name": "microradiano",
+    "code": "B97",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 356,
+    "name": "microsegundo",
+    "code": "B98",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 357,
+    "name": "microsiemens",
+    "code": "B99",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 358,
+    "name": "bar",
+    "code": "BAR",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 359,
+    "name": "caja base",
+    "code": "BB",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 360,
+    "name": "tablero",
+    "code": "BD",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 361,
+    "name": "haz",
+    "code": "SER",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 362,
+    "name": "pie de tabla",
+    "code": "BFT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 363,
+    "name": "bolso",
+    "code": "BG",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 364,
+    "name": "cepillo",
+    "code": "BH",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 365,
+    "name": "potencia al freno",
+    "code": "BHP",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 366,
+    "name": "trillón de dólares",
+    "code": "BIL",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 367,
+    "name": "cangilón",
+    "code": "BJ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 368,
+    "name": "cesta",
+    "code": "BK",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 369,
+    "name": "bala",
+    "code": "BL",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 370,
+    "name": "barril seco",
+    "code": "BLD",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 371,
+    "name": "barril (EE. UU.) (petróleo, etc.)",
+    "code": "BLL",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 372,
+    "name": "botella",
+    "code": "BO",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 373,
+    "name": "cien pies de tabla",
+    "code": "BP",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 374,
+    "name": "becquerel",
+    "code": "BQL",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 375,
+    "name": "bar",
+    "code": "BR",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 376,
+    "name": "tornillo",
+    "code": "BT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 377,
+    "name": "Unidad Térmica Británica",
+    "code": "BTU",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 378,
+    "name": "bushel (EE. UU.)",
+    "code": "BUA",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 379,
+    "name": "bushel (Reino Unido)",
+    "code": "BUI",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 380,
+    "name": "peso base",
+    "code": "BW",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 381,
+    "name": "caja",
+    "code": "BX",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 382,
+    "name": "millones de BTUs",
+    "code": "BZ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 383,
+    "name": "llamada",
+    "code": "C0",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 384,
+    "name": "producto compuesto libra (peso total)",
+    "code": "C1",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 385,
+    "name": "millifarad",
+    "code": "C10",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 386,
+    "name": "miligal",
+    "code": "C11",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 387,
+    "name": "miligramo por metro",
+    "code": "C12",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 388,
+    "name": "miligray",
+    "code": "C13",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 389,
+    "name": "milihenry",
+    "code": "C14",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 390,
+    "name": "milijoule",
+    "code": "C15",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 391,
+    "name": "milímetro por segundo",
+    "code": "C16",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 392,
+    "name": "milímetro cuadrado por segundo",
+    "code": "C17",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 393,
+    "name": "milimol",
+    "code": "C18",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 394,
+    "name": "mol por kilogramo",
+    "code": "C19",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 395,
+    "name": "carset",
+    "code": "C2",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 396,
+    "name": "millinewton",
+    "code": "C20",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 397,
+    "name": "millinewton por metro",
+    "code": "C22",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 398,
+    "name": "medidor de miliohm",
+    "code": "C23",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 399,
+    "name": "segundo milipascal",
+    "code": "C24",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 400,
+    "name": "miliradian",
+    "code": "C25",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 401,
+    "name": "milisegundo",
+    "code": "C26",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 402,
+    "name": "milisiemens",
+    "code": "C27",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 403,
+    "name": "milisievert",
+    "code": "C28",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 404,
+    "name": "millitesla",
+    "code": "C29",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 405,
+    "name": "microvoltios por metro",
+    "code": "C3",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 406,
+    "name": "milivoltios por metro",
+    "code": "C30",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 407,
+    "name": "milivatios",
+    "code": "C31",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 408,
+    "name": "milivatios por metro cuadrado",
+    "code": "C32",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 409,
+    "name": "milliweber",
+    "code": "C33",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 410,
+    "name": "Topo",
+    "code": "C34",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 411,
+    "name": "mol por decímetro cúbico",
+    "code": "C35",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 412,
+    "name": "mol por metro cúbico",
+    "code": "C36",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 413,
+    "name": "mol por litro",
+    "code": "C38",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 414,
+    "name": "Nanoampere",
+    "code": "C39",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 415,
+    "name": "partido de carga",
+    "code": "C4",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 416,
+    "name": "nanocoulomb",
+    "code": "C40",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 417,
+    "name": "nanofarad",
+    "code": "C41",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 418,
+    "name": "nanofarad por metro",
+    "code": "C42",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 419,
+    "name": "nanohenry",
+    "code": "C43",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 420,
+    "name": "nanohenry por metro",
+    "code": "C44",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 421,
+    "name": "nanometro",
+    "code": "C45",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 422,
+    "name": "medidor de nanoohm",
+    "code": "C46",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 423,
+    "name": "nanosegundo",
+    "code": "C47",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 424,
+    "name": "nanotesla",
+    "code": "C48",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 425,
+    "name": "nanovatio",
+    "code": "C49",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 426,
+    "name": "costo",
+    "code": "C5",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 427,
+    "name": "neper",
+    "code": "C50",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 428,
+    "name": "neper por segundo",
+    "code": "C51",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 429,
+    "name": "picometro",
+    "code": "C52",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 430,
+    "name": "metro de newton segundo",
+    "code": "C53",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 431,
+    "name": "newton metro cuadrado kilogramo cuadrado",
+    "code": "C54",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 432,
+    "name": "newton por metro cuadrado",
+    "code": "C55",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 433,
+    "name": "newton por milímetro cuadrado",
+    "code": "C56",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 434,
+    "name": "newton segundo",
+    "code": "C57",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 435,
+    "name": "newton segundo por metro",
+    "code": "C58",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 436,
+    "name": "octava",
+    "code": "C59",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 437,
+    "name": "célula",
+    "code": "C6",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 438,
+    "name": "ohm centímetro",
+    "code": "C60",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 439,
+    "name": "ohm metro",
+    "code": "C61",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 440,
+    "name": "uno",
+    "code": "C62",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 441,
+    "name": "parsec",
+    "code": "C63",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 442,
+    "name": "pascal por kelvin",
+    "code": "C64",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 443,
+    "name": "segundo pascal",
+    "code": "C65",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 444,
+    "name": "segundo pascal por metro cúbico",
+    "code": "C66",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 445,
+    "name": "segundo pascal por metro",
+    "code": "C67",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 446,
+    "name": "petajoule",
+    "code": "C68",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 447,
+    "name": "telefono",
+    "code": "C69",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 448,
+    "name": "centipoise",
+    "code": "C7",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 449,
+    "name": "picoampere",
+    "code": "C70",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 450,
+    "name": "picocoulomb",
+    "code": "C71",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 451,
+    "name": "picofarad por metro",
+    "code": "C72",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 452,
+    "name": "picohenry",
+    "code": "C73",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 453,
+    "name": "picowatt",
+    "code": "C75",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 454,
+    "name": "picowatt por metro cuadrado",
+    "code": "C76",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 455,
+    "name": "medidor de libras",
+    "code": "C77",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 456,
+    "name": "fuerza de libra",
+    "code": "C78",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 457,
+    "name": "Millicoulomb por kilogramo",
+    "code": "C8",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 458,
+    "name": "rad",
+    "code": "C80",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 459,
+    "name": "radián",
+    "code": "C81",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 460,
+    "name": "medidor de radianes al cuadrado por mol",
+    "code": "C82",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 461,
+    "name": "medidor de radianes al cuadrado por kilogramo",
+    "code": "C83",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 462,
+    "name": "radian por metro",
+    "code": "C84",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 463,
+    "name": "â € ngstr recíproco “m",
+    "code": "C85",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 464,
+    "name": "metro cúbico recíproco",
+    "code": "C86",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 465,
+    "name": "metro cúbico recíproco por segundo",
+    "code": "C87",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 466,
+    "name": "voltios de electrones recíprocos por metro cúbico",
+    "code": "C88",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 467,
+    "name": "Henry Recíproco",
+    "code": "C89",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 468,
+    "name": "grupo de bobina",
+    "code": "C9",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 469,
+    "name": "Joule recíproco por metro cúbico",
+    "code": "C90",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 470,
+    "name": "kelvin recíproco o kelvin al poder menos uno",
+    "code": "C91",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 471,
+    "name": "medidor recíproco",
+    "code": "C92",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 472,
+    "name": "metro cuadrado recíproco",
+    "code": "C93",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 473,
+    "name": "minuto recíproco",
+    "code": "C94",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 474,
+    "name": "mole recíproco",
+    "code": "C95",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 475,
+    "name": "Pascal recíproco o pascal a la potencia menos uno.",
+    "code": "C96",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 476,
+    "name": "segundo recíproco",
+    "code": "C97",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 477,
+    "name": "segundo recíproco por metro cúbico",
+    "code": "C98",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 478,
+    "name": "segundo recíproco por metro cuadrado",
+    "code": "C99",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 479,
+    "name": "Caja",
+    "code": "CA",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 480,
+    "name": "Capacidad de carga en toneladas métricas.",
+    "code": "CCT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 481,
+    "name": "candela",
+    "code": "CDL",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 482,
+    "name": "grado Celsius",
+    "code": "CEL",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 483,
+    "name": "cien",
+    "code": "CEN",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 484,
+    "name": "tarjeta",
+    "code": "CG",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 485,
+    "name": "centigramo",
+    "code": "CGM",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 486,
+    "name": "envase",
+    "code": "CH",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 487,
+    "name": "cono",
+    "code": "CJ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 488,
+    "name": "conector",
+    "code": "CK",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 489,
+    "name": "Coulomb por kilogramo",
+    "code": "CKG",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 490,
+    "name": "bobina",
+    "code": "CL",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 491,
+    "name": "cientos de licencia",
+    "code": "CLF",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 492,
+    "name": "centilitro",
+    "code": "CLT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 493,
+    "name": "centímetro cuadrado",
+    "code": "CMK",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 494,
+    "name": "centímetro cúbico",
+    "code": "CMQ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 495,
+    "name": "centímetro",
+    "code": "CMT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 496,
+    "name": "paquete de cien",
+    "code": "CNP",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 497,
+    "name": "Cental (Reino Unido)",
+    "code": "CNT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 498,
+    "name": "garrafón",
+    "code": "CO",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 499,
+    "name": "culombio",
+    "code": "COU",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 500,
+    "name": "cartucho",
+    "code": "CQ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 501,
+    "name": "caja",
+    "code": "CR",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 502,
+    "name": "caso",
+    "code": "CS",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 503,
+    "name": "caja de cartón",
+    "code": "CT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 504,
+    "name": "quilate métrico",
+    "code": "CTM",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 505,
+    "name": "vaso",
+    "code": "CU",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 506,
+    "name": "curie",
+    "code": "CUR",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 507,
+    "name": "cubrir",
+    "code": "CV",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 508,
+    "name": "cien libras (quintales) / cien pesos (US)",
+    "code": "CWA",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 509,
+    "name": "cien pesos (Reino Unido)",
+    "code": "CWI",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 510,
+    "name": "cilindro",
+    "code": "CY",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 511,
+    "name": "combo",
+    "code": "CZ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 512,
+    "name": "segundo recíproco por esteradiano",
+    "code": "D1",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 513,
+    "name": "siemens por metro",
+    "code": "D10",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 514,
+    "name": "siemens metro cuadrado por mol",
+    "code": "D12",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 515,
+    "name": "sievert",
+    "code": "D13",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 516,
+    "name": "mil yardas lineales",
+    "code": "D14",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 517,
+    "name": "sone",
+    "code": "D15",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 518,
+    "name": "centímetro cuadrado por ergio",
+    "code": "D16",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 519,
+    "name": "centímetro cuadrado por erg esterlina",
+    "code": "D17",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 520,
+    "name": "metro kelvin",
+    "code": "D18",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 521,
+    "name": "kelvin metro cuadrado por vatio",
+    "code": "D19",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 522,
+    "name": "segundo recíproco por metros cuadrados esteradianos",
+    "code": "D2",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 523,
+    "name": "metro cuadrado por julio",
+    "code": "D20",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 524,
+    "name": "metro cuadrado por kilogramo",
+    "code": "D21",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 525,
+    "name": "metro cuadrado por mol",
+    "code": "D22",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 526,
+    "name": "pluma gramo (proteína)",
+    "code": "D23",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 527,
+    "name": "metro cuadrado por esterilizador",
+    "code": "D24",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 528,
+    "name": "metro cuadrado por julios esteradianos",
+    "code": "D25",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 529,
+    "name": "metro cuadrado por voltio segundo",
+    "code": "D26",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 530,
+    "name": "esteradiano",
+    "code": "D27",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 531,
+    "name": "sifón",
+    "code": "D28",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 532,
+    "name": "terahercios",
+    "code": "D29",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 533,
+    "name": "terajulio",
+    "code": "D30",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 534,
+    "name": "teravatio",
+    "code": "D31",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 535,
+    "name": "hora de teravatio",
+    "code": "D32",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 536,
+    "name": "tesla",
+    "code": "D33",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 537,
+    "name": "Texas",
+    "code": "D34",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 538,
+    "name": "caloría termoquímica",
+    "code": "D35",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 539,
+    "name": "caloría termoquímica por gramo kelvin",
+    "code": "D37",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 540,
+    "name": "calorías termoquímicas por segundo centímetro kelvin",
+    "code": "D38",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 541,
+    "name": "calorías termoquímicas por segundo centímetro cuadrado kelvin",
+    "code": "D39",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 542,
+    "name": "mil litros",
+    "code": "D40",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 543,
+    "name": "tonelada por metro cúbico",
+    "code": "D41",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 544,
+    "name": "año tropical",
+    "code": "D42",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 545,
+    "name": "unidad de masa atómica unificada",
+    "code": "D43",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 546,
+    "name": "var",
+    "code": "D44",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 547,
+    "name": "voltios al cuadrado por kelvin al cuadrado",
+    "code": "D45",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 548,
+    "name": "voltio – amperio",
+    "code": "D46",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 549,
+    "name": "voltio por centímetro",
+    "code": "D47",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 550,
+    "name": "voltio por kelvin",
+    "code": "D48",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 551,
+    "name": "milivoltios por kelvin",
+    "code": "D49",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 552,
+    "name": "kilogramo por centímetro cuadrado",
+    "code": "D5",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 553,
+    "name": "voltios por metro",
+    "code": "D50",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 554,
+    "name": "voltios por milímetro",
+    "code": "D51",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 555,
+    "name": "vatios por kelvin",
+    "code": "D52",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 556,
+    "name": "vatios por metro kelvin",
+    "code": "D53",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 557,
+    "name": "vatios por metro cuadrado",
+    "code": "D54",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 558,
+    "name": "vatios por metro cuadrado kelvin",
+    "code": "D55",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 559,
+    "name": "vatios por metro cuadrado de kelvin a la cuarta potencia",
+    "code": "D56",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 560,
+    "name": "vatios por steradian",
+    "code": "D57",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 561,
+    "name": "vatios por metro cuadrado esterlino",
+    "code": "D58",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 562,
+    "name": "weber por metro",
+    "code": "D59",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 563,
+    "name": "röntgen por segundo",
+    "code": "D6",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 564,
+    "name": "weber por milímetro",
+    "code": "D60",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 565,
+    "name": "minuto",
+    "code": "D61",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 566,
+    "name": "segundo",
+    "code": "D62",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 567,
+    "name": "libro",
+    "code": "D63",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 568,
+    "name": "bloquear",
+    "code": "D64",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 569,
+    "name": "redondo",
+    "code": "D65",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 570,
+    "name": "casete",
+    "code": "D66",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 571,
+    "name": "dólar por hora",
+    "code": "D67",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 572,
+    "name": "pulgada a la cuarta potencia",
+    "code": "D69",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 573,
+    "name": "Sandwich",
+    "code": "D7",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 574,
+    "name": "Tabla Internacional (IT) caloría",
+    "code": "D70",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 575,
+    "name": "Tabla Internacional (IT) calorías por segundo centímetro kelvin",
+    "code": "D71",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 576,
+    "name": "Tabla Internacional (IT) calorías por segundo centímetro cuadrado kelvin",
+    "code": "D72",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 577,
+    "name": "joule metro cuadrado",
+    "code": "D73",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 578,
+    "name": "kilogramo por mol",
+    "code": "D74",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 579,
+    "name": "Tabla Internacional (IT) calorías por gramo",
+    "code": "D75",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 580,
+    "name": "Tabla Internacional (IT) calorías por gramo kelvin",
+    "code": "D76",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 581,
+    "name": "megacoulomb",
+    "code": "D77",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 582,
+    "name": "haz",
+    "code": "D79",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 583,
+    "name": "puntaje de drenaje",
+    "code": "D8",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 584,
+    "name": "microwatt",
+    "code": "D80",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 585,
+    "name": "microtesla",
+    "code": "D81",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 586,
+    "name": "microvoltio",
+    "code": "D82",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 587,
+    "name": "medidor de millinewton",
+    "code": "D83",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 588,
+    "name": "microwatt por metro cuadrado",
+    "code": "D85",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 589,
+    "name": "Millicoulomb",
+    "code": "D86",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 590,
+    "name": "milimol por kilogramo",
+    "code": "D87",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 591,
+    "name": "millicoulomb por metro cúbico",
+    "code": "D88",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 592,
+    "name": "millicoulomb por metro cuadrado",
+    "code": "D89",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 593,
+    "name": "dina por centímetro cuadrado",
+    "code": "D9",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 594,
+    "name": "metro cúbico (neto)",
+    "code": "D90",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 595,
+    "name": "movimiento rápido del ojo",
+    "code": "D91",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 596,
+    "name": "banda",
+    "code": "D92",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 597,
+    "name": "segundo por metro cúbico",
+    "code": "D93",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 598,
+    "name": "segundo por metro cúbico radianes",
+    "code": "D94",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 599,
+    "name": "julios por gramo",
+    "code": "D95",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 600,
+    "name": "libra bruta",
+    "code": "D96",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 601,
+    "name": "carga de palet / unidad",
+    "code": "D97",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 602,
+    "name": "libra de masa",
+    "code": "D98",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 603,
+    "name": "manga",
+    "code": "D99",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 604,
+    "name": "despreciar",
+    "code": "DAA",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 605,
+    "name": "diez dias",
+    "code": "DAD",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 606,
+    "name": "día",
+    "code": "DAY",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 607,
+    "name": "libra seca",
+    "code": "DB",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 608,
+    "name": "disco",
+    "code": "DC",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 609,
+    "name": "la licenciatura",
+    "code": "DD",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 610,
+    "name": "acuerdo",
+    "code": "DE",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 611,
+    "name": "década",
+    "code": "DEC",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 612,
+    "name": "decigramo",
+    "code": "DG",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 613,
+    "name": "dispensador",
+    "code": "DI",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 614,
+    "name": "decagramo",
+    "code": "DJ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 615,
+    "name": "decilitro",
+    "code": "DLT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 616,
+    "name": "nformaci cuadrado",
+    "code": "DMK",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 617,
+    "name": "decímetro cúbico",
+    "code": "DMQ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 618,
+    "name": "decímetro",
+    "code": "DMT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 619,
+    "name": "medidor de decinewton",
+    "code": "DN",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 620,
+    "name": "docena pieza",
+    "code": "DPC",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 621,
+    "name": "docena par",
+    "code": "DPR",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 622,
+    "name": "tonelaje de desplazamiento",
+    "code": "DPT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 623,
+    "name": "registro de datos",
+    "code": "DQ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 624,
+    "name": "tambor",
+    "code": "DR",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 625,
+    "name": "dram (US)",
+    "code": "DRA",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 626,
+    "name": "dram (Reino Unido)",
+    "code": "DRI",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 627,
+    "name": "docena rollo",
+    "code": "DRL",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 628,
+    "name": "dracma (Reino Unido)",
+    "code": "DRM",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 629,
+    "name": "monitor",
+    "code": "DS",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 630,
+    "name": "tonelada seca",
+    "code": "DT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 631,
+    "name": "Decitonne",
+    "code": "DTN",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 632,
+    "name": "dina",
+    "code": "DU",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 633,
+    "name": "pennyweight",
+    "code": "DWT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 634,
+    "name": "dina por centímetro",
+    "code": "DX",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 635,
+    "name": "libro de directorio",
+    "code": "DY",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 636,
+    "name": "docena",
+    "code": "DZN",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 637,
+    "name": "paquete de doce",
+    "code": "DZP",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 638,
+    "name": "cinturón",
+    "code": "E2",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 639,
+    "name": "remolque",
+    "code": "E3",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 640,
+    "name": "kilogramo bruto",
+    "code": "E4",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 641,
+    "name": "tonelada métrica larga",
+    "code": "E5",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 642,
+    "name": "cada",
+    "code": "EA",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 643,
+    "name": "casilla de correo electrónico",
+    "code": "EB",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 644,
+    "name": "cada uno por mes",
+    "code": "CE",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 645,
+    "name": "paquete de once",
+    "code": "EP",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 646,
+    "name": "galón equivalente",
+    "code": "EQ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 647,
+    "name": "sobre",
+    "code": "EV",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 648,
+    "name": "mil pies cúbicos por día",
+    "code": "F1",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 649,
+    "name": "Fibra por centímetro cúbico de aire",
+    "code": "F9",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 650,
+    "name": "grado Fahrenheit",
+    "code": "FAH",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 651,
+    "name": "faradio",
+    "code": "FAR",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 652,
+    "name": "campo",
+    "code": "FB",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 653,
+    "name": "mil pies cúbicos",
+    "code": "FC",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 654,
+    "name": "millón de partículas por pie cúbico",
+    "code": "FD",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 655,
+    "name": "pie de pista",
+    "code": "FE",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 656,
+    "name": "cien metros cúbicos",
+    "code": "FF",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 657,
+    "name": "parche transdérmico",
+    "code": "FG",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 658,
+    "name": "micromol",
+    "code": "FH",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 659,
+    "name": "tonelada en escamas",
+    "code": "FL",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 660,
+    "name": "millones de pies cúbicos",
+    "code": "FM",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 661,
+    "name": "pie",
+    "code": "FOT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 662,
+    "name": "libra por pie cuadrado",
+    "code": "FP",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 663,
+    "name": "pie por minuto",
+    "code": "FR",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 664,
+    "name": "pie por segundo",
+    "code": "FS",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 665,
+    "name": "pie cuadrado",
+    "code": "FTK",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 666,
+    "name": "pie cubico",
+    "code": "FTQ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 667,
+    "name": "US galones por minuto",
+    "code": "G2",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 668,
+    "name": "Galon imperial por minuto",
+    "code": "G3",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 669,
+    "name": "hoja de microficha",
+    "code": "G7",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 670,
+    "name": "galón (US) por día",
+    "code": "GB",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 671,
+    "name": "gigabecquerel",
+    "code": "GBQ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 672,
+    "name": "gramo por 100 gramo",
+    "code": "GC",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 673,
+    "name": "barril bruto",
+    "code": "GD",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 674,
+    "name": "libra por galón (US)",
+    "code": "GE",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 675,
+    "name": "gramo por metro (gramo por 100 centímetros)",
+    "code": "GF",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 676,
+    "name": "gramo de isótopo fisionable",
+    "code": "GFI",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 677,
+    "name": "gramo",
+    "code": "GGR",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 678,
+    "name": "medio galón (EE. UU.)",
+    "code": "GH",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 679,
+    "name": "branquias",
+    "code": "GIA",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 680,
+    "name": "Gill (Reino Unido)",
+    "code": "GII",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 681,
+    "name": "gramo por mililitro",
+    "code": "GJ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 682,
+    "name": "gramo por kilogramo",
+    "code": "G K",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 683,
+    "name": "gramo por litro",
+    "code": "GL",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 684,
+    "name": "galón seco (EE. UU.)",
+    "code": "GLD",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 685,
+    "name": "galón (Reino Unido)",
+    "code": "GLI",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 686,
+    "name": "galón",
+    "code": "GLL",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 687,
+    "name": "gramo por metro cuadrado",
+    "code": "GM",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 688,
+    "name": "galón bruto",
+    "code": "GN",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 689,
+    "name": "miligramos por metro cuadrado",
+    "code": "GO",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 690,
+    "name": "miligramo por metro cúbico",
+    "code": "GP",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 691,
+    "name": "microgramos por metro cúbico",
+    "code": "GQ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 692,
+    "name": "gramo",
+    "code": "GRM",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 693,
+    "name": "grano",
+    "code": "GRN",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 694,
+    "name": "bruto",
+    "code": "GRO",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 695,
+    "name": "tonelada de registro bruto",
+    "code": "GRT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 696,
+    "name": "tonelada bruta",
+    "code": "GT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 697,
+    "name": "gigajoule",
+    "code": "GV",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 698,
+    "name": "galón por mil pies cúbicos",
+    "code": "GW",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 699,
+    "name": "hora de gigavatios",
+    "code": "GWH",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 700,
+    "name": "patio bruto",
+    "code": "GY",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 701,
+    "name": "sistema de medición",
+    "code": "GZ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 702,
+    "name": "media página – electrónica",
+    "code": "H1",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 703,
+    "name": "medio litro",
+    "code": "H2",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 704,
+    "name": "madeja",
+    "code": "HA",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 705,
+    "name": "hectárea",
+    "code": "HAR",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 706,
+    "name": "hectobar",
+    "code": "HBA",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 707,
+    "name": "cien cajas",
+    "code": "HBX",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 708,
+    "name": "cien cuentas",
+    "code": "HC",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 709,
+    "name": "media docena",
+    "code": "HD",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 710,
+    "name": "centésima de quilate",
+    "code": "ÉL",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 711,
+    "name": "cien pies",
+    "code": "HF",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 712,
+    "name": "hectogramo",
+    "code": "HGM",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 713,
+    "name": "cien pies cúbicos",
+    "code": "HH",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 714,
+    "name": "cien hojas",
+    "code": "HI",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 715,
+    "name": "cien unidades internacionales",
+    "code": "HIU",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 716,
+    "name": "caballo métrico",
+    "code": "HJ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 717,
+    "name": "cien kilogramos",
+    "code": "HK",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 718,
+    "name": "cien pies (lineales)",
+    "code": "HL",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 719,
+    "name": "hectolitro",
+    "code": "HLT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 720,
+    "name": "milla por hora",
+    "code": "HM",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 721,
+    "name": "millones de metros cúbicos",
+    "code": "HMQ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 722,
+    "name": "hectómetro",
+    "code": "HMT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 723,
+    "name": "milímetro convencional de mercurio",
+    "code": "HN",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 724,
+    "name": "cien onzas troy",
+    "code": "HO",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 725,
+    "name": "milímetro convencional de agua",
+    "code": "HP",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 726,
+    "name": "hectolitro de alcohol puro",
+    "code": "HPA",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 727,
+    "name": "cien pies cuadrados",
+    "code": "HS",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 728,
+    "name": "media hora",
+    "code": "HT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 729,
+    "name": "hertz",
+    "code": "HTZ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 730,
+    "name": "hora",
+    "code": "HUR",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 731,
+    "name": "cien yardas",
+    "code": "HY",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 732,
+    "name": "pulgada libra",
+    "code": "IA",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 733,
+    "name": "contar por pulgada",
+    "code": "IC",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 734,
+    "name": "persona",
+    "code": "IE",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 735,
+    "name": "pulgadas de agua",
+    "code": "IF",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 736,
+    "name": "columna pulgada",
+    "code": "II",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 737,
+    "name": "pulgada por minuto",
+    "code": "IL",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 738,
+    "name": "impresión",
+    "code": "IM",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 739,
+    "name": "pulgada",
+    "code": "INH",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 740,
+    "name": "pulgada cuadrada",
+    "code": "INK",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 741,
+    "name": "pulgada en cubos",
+    "code": "INQ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 742,
+    "name": "póliza de seguros",
+    "code": "IP",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 743,
+    "name": "conteo por centímetro",
+    "code": "IT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 744,
+    "name": "pulgada por segundo (velocidad lineal)",
+    "code": "IU",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 745,
+    "name": "pulgada por segundo al cuadrado (aceleración)",
+    "code": "IV",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 746,
+    "name": "julios por kilogramo",
+    "code": "J2",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 747,
+    "name": "jumbo",
+    "code": "JB",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 748,
+    "name": "joule por kelvin",
+    "code": "JE",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 749,
+    "name": "jarra",
+    "code": "JG",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 750,
+    "name": "megajulio por kilogramo",
+    "code": "JK",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 751,
+    "name": "megajulio por metro cúbico",
+    "code": "JM",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 752,
+    "name": "articulación",
+    "code": "JO",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 753,
+    "name": "joule",
+    "code": "JOU",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 754,
+    "name": "tarro",
+    "code": "JR",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 755,
+    "name": "demanda de kilovatios",
+    "code": "K1",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 756,
+    "name": "kilovoltios amperios reactivos de demanda",
+    "code": "K2",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 757,
+    "name": "kilovoltio amperio hora reactiva",
+    "code": "K3",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 758,
+    "name": "amperios kilovoltios (reactivos)",
+    "code": "K5",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 759,
+    "name": "kilolitro",
+    "code": "K6",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 760,
+    "name": "pastel",
+    "code": "KA",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 761,
+    "name": "kilocharacter",
+    "code": "KB",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 762,
+    "name": "kilobar",
+    "code": "KBA",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 763,
+    "name": "kilogramo decimal",
+    "code": "KD",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 764,
+    "name": "kelvin",
+    "code": "KEL",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 765,
+    "name": "kilopacket",
+    "code": "KF",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 766,
+    "name": "barrilete",
+    "code": "KG",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 767,
+    "name": "kilogramo",
+    "code": "KGM",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 768,
+    "name": "kilogramo por segundo",
+    "code": "KGS",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 769,
+    "name": "kilohercio",
+    "code": "KHZ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 770,
+    "name": "Kilogramo por milímetro de ancho",
+    "code": "KI",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 771,
+    "name": "kilosegmento",
+    "code": "KJ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 772,
+    "name": "kilojoule",
+    "code": "KJO",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 773,
+    "name": "kilogramo por metro",
+    "code": "KL",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 774,
+    "name": "kilómetro por hora",
+    "code": "KMH",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 775,
+    "name": "kilometro cuadrado",
+    "code": "KMK",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 776,
+    "name": "kilogramo por metro cúbico",
+    "code": "KMQ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 777,
+    "name": "kilogramo de nitrógeno",
+    "code": "KNI",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 778,
+    "name": "kilogramo de sustancia nombrada",
+    "code": "KNS",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 779,
+    "name": "nudo",
+    "code": "KNT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 780,
+    "name": "Milliequivalencia de potasa cáustica por gramo de producto.",
+    "code": "KO",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 781,
+    "name": "kilopascal",
+    "code": "KPA",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 782,
+    "name": "kilogramo de hidróxido de potasio (potasa cáustica)",
+    "code": "KPH",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 783,
+    "name": "kilogramo de óxido de potasio",
+    "code": "KPO",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 784,
+    "name": "kilogramo de pentóxido de fósforo (anhídrido fosfórico)",
+    "code": "KPP",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 785,
+    "name": "KilorÃ¶ntgen",
+    "code": "KR",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 786,
+    "name": "mil libras por pulgada cuadrada",
+    "code": "KS",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 787,
+    "name": "kilogramo de sustancia 90% seca",
+    "code": "KSD",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 788,
+    "name": "kilogramo de hidróxido de sodio (soda cáustica)",
+    "code": "KSH",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 789,
+    "name": "equipo",
+    "code": "KT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 790,
+    "name": "kilómetro",
+    "code": "KTM",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 791,
+    "name": "kilotonne",
+    "code": "KTN",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 792,
+    "name": "kilogramo de uranio",
+    "code": "KUR",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 793,
+    "name": "kilovoltio – ampere",
+    "code": "KVA",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 794,
+    "name": "kilovar",
+    "code": "KVR",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 795,
+    "name": "kilovoltio",
+    "code": "KVT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 796,
+    "name": "kilogramos por milímetro",
+    "code": "KW",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 797,
+    "name": "kilovatios hora",
+    "code": "KWH",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 798,
+    "name": "kilovatio",
+    "code": "KWT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 799,
+    "name": "mililitro por kilogramo",
+    "code": "KX",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 800,
+    "name": "litro por minuto",
+    "code": "L2",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 801,
+    "name": "libra por pulgada cúbica",
+    "code": "LA",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 802,
+    "name": "libra",
+    "code": "LBR",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 803,
+    "name": "libra troy",
+    "code": "LBT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 804,
+    "name": "centímetro lineal",
+    "code": "LC",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 805,
+    "name": "litro por día",
+    "code": "LD",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 806,
+    "name": "lite",
+    "code": "LE",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 807,
+    "name": "hoja",
+    "code": "LEF",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 808,
+    "name": "pie lineal",
+    "code": "LF",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 809,
+    "name": "hora de trabajo",
+    "code": "LH",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 810,
+    "name": "pulgada lineal",
+    "code": "LI",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 811,
+    "name": "spray grande",
+    "code": "LJ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 812,
+    "name": "enlazar",
+    "code": "LK",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 813,
+    "name": "metro lineal",
+    "code": "LM",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 814,
+    "name": "longitud",
+    "code": "LN",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 815,
+    "name": "mucho",
+    "code": "LO",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 816,
+    "name": "libra liquida",
+    "code": "LP",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 817,
+    "name": "litro de alcohol puro",
+    "code": "LPA",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 818,
+    "name": "capa",
+    "code": "LR",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 819,
+    "name": "Suma global",
+    "code": "LS",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 820,
+    "name": "ton (Reino Unido) o longton (EE. UU.)",
+    "code": "LTN",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 821,
+    "name": "litro",
+    "code": "LTR",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 822,
+    "name": "lumen",
+    "code": "LUM",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 823,
+    "name": "lux",
+    "code": "LUX",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 824,
+    "name": "yarda lineal por libra",
+    "code": "LX",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 825,
+    "name": "yarda lineal",
+    "code": "LY",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 826,
+    "name": "cinta magnética",
+    "code": "M0",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 827,
+    "name": "miligramos por litro",
+    "code": "M1",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 828,
+    "name": "valor monetario",
+    "code": "M4",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 829,
+    "name": "microcurie",
+    "code": "M5",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 830,
+    "name": "micropulgada",
+    "code": "M7",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 831,
+    "name": "millones de Btu por 1000 pies cúbicos",
+    "code": "M9",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 832,
+    "name": "máquina por unidad",
+    "code": "MA",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 833,
+    "name": "mega litro",
+    "code": "MAL",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 834,
+    "name": "megametro",
+    "code": "MAM",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 835,
+    "name": "megavatio",
+    "code": "MAW",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 836,
+    "name": "mil equivalentes de ladrillo estándar",
+    "code": "MBE",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 837,
+    "name": "mil pies de tabla",
+    "code": "MBF",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 838,
+    "name": "milibar",
+    "code": "MBR",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 839,
+    "name": "microgramo",
+    "code": "MC",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 840,
+    "name": "milicurie",
+    "code": "MCU",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 841,
+    "name": "aire seco tonelada métrica",
+    "code": "MD",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 842,
+    "name": "miligramo por pie cuadrado por lado",
+    "code": "MF",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 843,
+    "name": "miligramo",
+    "code": "MGM",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 844,
+    "name": "megahercio",
+    "code": "MGM",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 845,
+    "name": "milla cuadrada",
+    "code": "MIK",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 846,
+    "name": "mil",
+    "code": "MIL",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 847,
+    "name": "minuto",
+    "code": "MIN",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 848,
+    "name": "millón",
+    "code": "MIO",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 849,
+    "name": "millones de unidades internacionales",
+    "code": "MIU",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 850,
+    "name": "miligramo por pulgada cuadrada",
+    "code": "MK",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 851,
+    "name": "mil millones",
+    "code": "MLD",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 852,
+    "name": "mililitro",
+    "code": "MLT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 853,
+    "name": "milímetro cuadrado",
+    "code": "MMK",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 854,
+    "name": "milímetro cúbico",
+    "code": "MMQ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 855,
+    "name": "milímetro",
+    "code": "MMT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 856,
+    "name": "mes",
+    "code": "LUN",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 857,
+    "name": "megapascal",
+    "code": "MPA",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 858,
+    "name": "mil metros",
+    "code": "MQ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 859,
+    "name": "metro cúbico por hora",
+    "code": "MQH",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 860,
+    "name": "metro cúbico por segundo",
+    "code": "MQS",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 861,
+    "name": "metro por segundo al cuadrado",
+    "code": "MSK",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 862,
+    "name": "estera",
+    "code": "MT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 863,
+    "name": "metro cuadrado",
+    "code": "MTK",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 864,
+    "name": "Metro cúbico",
+    "code": "MTQ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 865,
+    "name": "metro",
+    "code": "MTR",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 866,
+    "name": "metro por segundo",
+    "code": "MTS",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 867,
+    "name": "numero de mults",
+    "code": "MV",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 868,
+    "name": "megavolt – ampere",
+    "code": "MVA",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 869,
+    "name": "megavatios hora (1000 kW.h)",
+    "code": "MWH",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 870,
+    "name": "calorías de la pluma",
+    "code": "N1",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 871,
+    "name": "número de líneas",
+    "code": "N2",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 872,
+    "name": "punto de impresión",
+    "code": "N3",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 873,
+    "name": "miligramo por kilogramo",
+    "code": "NA",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 874,
+    "name": "número de artículos",
+    "code": "NAR",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 875,
+    "name": "barcaza",
+    "code": "NB",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 876,
+    "name": "número de bobinas",
+    "code": "NBB",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 877,
+    "name": "coche",
+    "code": "NC",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 878,
+    "name": "número de celdas",
+    "code": "NCL",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 879,
+    "name": "barril neto",
+    "code": "ND",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 880,
+    "name": "litro neto",
+    "code": "NE",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 881,
+    "name": "newton",
+    "code": "NEW",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 882,
+    "name": "mensaje",
+    "code": "NF",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 883,
+    "name": "galón neto (nosotros)",
+    "code": "NG",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 884,
+    "name": "hora del mensaje",
+    "code": "NH",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 885,
+    "name": "galón imperial neto",
+    "code": "NI",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 886,
+    "name": "número de unidades internacionales",
+    "code": "NIU",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 887,
+    "name": "número de pantallas",
+    "code": "NJ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 888,
+    "name": "carga",
+    "code": "NL",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 889,
+    "name": "milla nautica",
+    "code": "MNI",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 890,
+    "name": "número de paquetes",
+    "code": "NMP",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 891,
+    "name": "entrenar",
+    "code": "NN",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 892,
+    "name": "número de parcelas",
+    "code": "NPL",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 893,
+    "name": "numero de pares",
+    "code": "NPR",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 894,
+    "name": "numero de partes",
+    "code": "TNP",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 895,
+    "name": "mho",
+    "code": "NQ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 896,
+    "name": "micromho",
+    "code": "NR",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 897,
+    "name": "número de rollos",
+    "code": "NRL",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 898,
+    "name": "tonelada neta",
+    "code": "NT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 899,
+    "name": "registro neto de toneladas",
+    "code": "NTT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 900,
+    "name": "medidor de newton",
+    "code": "NU",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 901,
+    "name": "vehículo",
+    "code": "NV",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 902,
+    "name": "parte por mil",
+    "code": "NX",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 903,
+    "name": "libra por aire seco tonelada métrica",
+    "code": "NY",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 904,
+    "name": "panel",
+    "code": "OA",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 905,
+    "name": "ohm",
+    "code": "OHM",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 906,
+    "name": "onza por yarda cuadrada",
+    "code": "EN",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 907,
+    "name": "onza",
+    "code": "ONZ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 908,
+    "name": "Dos paquetes",
+    "code": "OP",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 909,
+    "name": "hora extra",
+    "code": "OT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 910,
+    "name": "onza av",
+    "code": "ONZ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 911,
+    "name": "onza líquida (US)",
+    "code": "OZA",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 912,
+    "name": "onza líquida (Reino Unido)",
+    "code": "OZI",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 913,
+    "name": "pagina – electronica",
+    "code": "P0",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 914,
+    "name": "por ciento",
+    "code": "P1",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 915,
+    "name": "libra por pie",
+    "code": "P2",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 916,
+    "name": "paquete de tres",
+    "code": "P3",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 917,
+    "name": "paquete de cuatro",
+    "code": "P4",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 918,
+    "name": "paquete de cinco",
+    "code": "P5",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 919,
+    "name": "paquete de seis",
+    "code": "P6",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 920,
+    "name": "paquete de siete",
+    "code": "P7",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 921,
+    "name": "paquete de ocho",
+    "code": "P8",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 922,
+    "name": "paquete de nueve",
+    "code": "P9",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 923,
+    "name": "paquete",
+    "code": "PA",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 924,
+    "name": "pascal",
+    "code": "PAL",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 925,
+    "name": "par de pulgadas",
+    "code": "PB",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 926,
+    "name": "almohadilla",
+    "code": "PD",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 927,
+    "name": "equivalente en libras",
+    "code": "PE",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 928,
+    "name": "palet (ascensor)",
+    "code": "PF",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 929,
+    "name": "plato",
+    "code": "PG",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 930,
+    "name": "galón de prueba",
+    "code": "PGL",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 931,
+    "name": "tono",
+    "code": "Pi",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 932,
+    "name": "paquete",
+    "code": "PK",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 933,
+    "name": "cubo",
+    "code": "PL",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 934,
+    "name": "porcentaje de libra",
+    "code": "PM",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 935,
+    "name": "libra neta",
+    "code": "PN",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 936,
+    "name": "libra por pulgada de longitud",
+    "code": "PO",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 937,
+    "name": "página por pulgada",
+    "code": "PQ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 938,
+    "name": "par",
+    "code": "PR",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 939,
+    "name": "fuerza de libra por pulgada cuadrada",
+    "code": "PD",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 940,
+    "name": "pinta",
+    "code": "PT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 941,
+    "name": "pinta seca",
+    "code": "PTD",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 942,
+    "name": "pinta (Reino Unido)",
+    "code": "PTI",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 943,
+    "name": "pinta liquida (US)",
+    "code": "PTL",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 944,
+    "name": "bandeja / paquete de bandeja",
+    "code": "PU",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 945,
+    "name": "media pinta (US)",
+    "code": "PV",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 946,
+    "name": "libra por pulgada de ancho",
+    "code": "PW",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 947,
+    "name": "Peck Dry (US)",
+    "code": "PY",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 948,
+    "name": "Peck Dry (Reino Unido)",
+    "code": "PZ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 949,
+    "name": "comida",
+    "code": "Q3",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 950,
+    "name": "página – facsímil",
+    "code": "QA",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 951,
+    "name": "cuarto (de un año)",
+    "code": "QAN",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 952,
+    "name": "página – copia impresa",
+    "code": "QB",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 953,
+    "name": "cuarto de docena",
+    "code": "QD",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 954,
+    "name": "un cuarto de hora",
+    "code": "QH",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 955,
+    "name": "cuarto de kilogramo",
+    "code": "QK",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 956,
+    "name": "mano de papel",
+    "code": "QR",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 957,
+    "name": "cuarto de galón (US)",
+    "code": "QT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 958,
+    "name": "cuarto seco (EE. UU.)",
+    "code": "QTD",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 959,
+    "name": "cuarto de galón (Reino Unido)",
+    "code": "QTI",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 960,
+    "name": "cuarto líquido (US)",
+    "code": "QTL",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 961,
+    "name": "cuarto (UK)",
+    "code": "QTR",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 962,
+    "name": "pica",
+    "code": "R1",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 963,
+    "name": "caloría",
+    "code": "R4",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 964,
+    "name": "mil metros cúbicos",
+    "code": "R9",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 965,
+    "name": "estante",
+    "code": "RA",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 966,
+    "name": "barra",
+    "code": "RD",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 967,
+    "name": "anillo",
+    "code": "RG",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 968,
+    "name": "hora de funcionamiento o de funcionamiento",
+    "code": "RH",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 969,
+    "name": "medida métrica rollo",
+    "code": "RK",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 970,
+    "name": "carrete",
+    "code": "RL",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 971,
+    "name": "resma",
+    "code": "RM",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 972,
+    "name": "medida métrica de resma",
+    "code": "RN",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 973,
+    "name": "rodar",
+    "code": "RO",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 974,
+    "name": "libra por resma",
+    "code": "RP",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 975,
+    "name": "revoluciones por minuto",
+    "code": "RPM",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 976,
+    "name": "revoluciones por segundo",
+    "code": "RPS",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 977,
+    "name": "Reiniciar",
+    "code": "RS",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 978,
+    "name": "ingreso tonelada milla",
+    "code": "RT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 979,
+    "name": "correr",
+    "code": "RU",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 980,
+    "name": "pie cuadrado por segundo",
+    "code": "S3",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 981,
+    "name": "metro cuadrado por segundo",
+    "code": "S4",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 982,
+    "name": "sesenta cuartos de pulgada",
+    "code": "S5",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 983,
+    "name": "sesión",
+    "code": "S6",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 984,
+    "name": "unidad de almacenamiento",
+    "code": "S7",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 985,
+    "name": "unidad de publicidad estándar",
+    "code": "S8",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 986,
+    "name": "saco",
+    "code": "SA",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 987,
+    "name": "medio año (6 meses)",
+    "code": "SAN",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 988,
+    "name": "Puntuación",
+    "code": "OCS",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 989,
+    "name": "escrúpulo",
+    "code": "SCR",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 990,
+    "name": "libra solida",
+    "code": "SD",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 991,
+    "name": "sección",
+    "code": "SE",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 992,
+    "name": "segundo",
+    "code": "SEC",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 993,
+    "name": "conjunto",
+    "code": "SET",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 994,
+    "name": "segmento",
+    "code": "SG",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 995,
+    "name": "tonelada de envío",
+    "code": "SHT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 996,
+    "name": "siemens",
+    "code": "SIE",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 997,
+    "name": "camión cisterna dividido",
+    "code": "SK",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 998,
+    "name": "hoja de deslizamiento",
+    "code": "SL",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 999,
+    "name": "milla (milla estatutaria)",
+    "code": "SMI",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1000,
+    "name": "varilla cuadrada",
+    "code": "SN",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1001,
+    "name": "carrete",
+    "code": "SO",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1002,
+    "name": "paquete de estante",
+    "code": "SP",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1003,
+    "name": "cuadrado",
+    "code": "SQ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1004,
+    "name": "tira",
+    "code": "SR",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1005,
+    "name": "hoja métrica medida",
+    "code": "SS",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1006,
+    "name": "corto estándar (7200 partidos)",
+    "code": "SST",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1007,
+    "name": "hoja",
+    "code": "ST",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1008,
+    "name": "piedra (Reino Unido)",
+    "code": "ITS",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1009,
+    "name": "tonelada (US) o tonelada corta (UK / US)",
+    "code": "STN",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1010,
+    "name": "patinar",
+    "code": "SV",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1011,
+    "name": "madeja",
+    "code": "SO",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1012,
+    "name": "envío",
+    "code": "SX",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1013,
+    "name": "Línea de telecomunicaciones en servicio.",
+    "code": "T0",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1014,
+    "name": "mil libras brutas",
+    "code": "T1",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1015,
+    "name": "mil piezas",
+    "code": "T3",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1016,
+    "name": "bolsa de mil",
+    "code": "T4",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1017,
+    "name": "caja de mil",
+    "code": "T5",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1018,
+    "name": "mil galones (US)",
+    "code": "T6",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1019,
+    "name": "mil impresiones",
+    "code": "T7",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1020,
+    "name": "mil pulgadas lineales",
+    "code": "T8",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1021,
+    "name": "décimo pie cúbico",
+    "code": "TA",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1022,
+    "name": "Kiloampere hora (mil amperios hora)",
+    "code": "TAH",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1023,
+    "name": "camion",
+    "code": "TC",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1024,
+    "name": "termia",
+    "code": "TD",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1025,
+    "name": "totalizador",
+    "code": "TE",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1026,
+    "name": "diez metros cuadrados",
+    "code": "TF",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1027,
+    "name": "mil pulgadas cuadradas",
+    "code": "TI",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1028,
+    "name": "mil centímetros cuadrados",
+    "code": "TJ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1029,
+    "name": "tanque, rectangular",
+    "code": "TK",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1030,
+    "name": "mil pies (lineales)",
+    "code": "TL",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1031,
+    "name": "estaño",
+    "code": "TN",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1032,
+    "name": "tonelada (tonelada métrica)",
+    "code": "TNE",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1033,
+    "name": "paquete de diez",
+    "code": "TP",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1034,
+    "name": "diez pares",
+    "code": "TPR",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1035,
+    "name": "mil pies",
+    "code": "TQ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1036,
+    "name": "mil metros cúbicos por día",
+    "code": "TQD",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1037,
+    "name": "diez pies cuadrados",
+    "code": "TR",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1038,
+    "name": "trillón (EUR)",
+    "code": "TRL",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1039,
+    "name": "mil pies cuadrados",
+    "code": "TS",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1040,
+    "name": "tonelada de sustancia 90% seca",
+    "code": "TSD",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1041,
+    "name": "tonelada de vapor por hora",
+    "code": "TSH",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1042,
+    "name": "mil metros lineales",
+    "code": "TT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1043,
+    "name": "tubo",
+    "code": "TU",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1044,
+    "name": "mil kilogramos",
+    "code": "TV",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1045,
+    "name": "mil hojas",
+    "code": "TW",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1046,
+    "name": "tanque, cilíndrico",
+    "code": "TY",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1047,
+    "name": "tratamiento",
+    "code": "U1",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1048,
+    "name": "tableta",
+    "code": "U2",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1049,
+    "name": "torr",
+    "code": "UA",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1050,
+    "name": "Línea de telecomunicaciones en servicio promedio.",
+    "code": "UB",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1051,
+    "name": "puerto de telecomunicaciones",
+    "code": "UC",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1052,
+    "name": "décimo minuto",
+    "code": "UD",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1053,
+    "name": "décima hora",
+    "code": "UE",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1054,
+    "name": "uso por línea de telecomunicación promedio",
+    "code": "UF",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1055,
+    "name": "diez mil yardas",
+    "code": "UH",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1056,
+    "name": "millones de unidades",
+    "code": "UM",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1057,
+    "name": "voltio amperio por kilogramo",
+    "code": "VA",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1058,
+    "name": "frasco",
+    "code": "VI",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1059,
+    "name": "voltio",
+    "code": "VLT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1060,
+    "name": "abultar",
+    "code": "VQ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1061,
+    "name": "visitar",
+    "code": "VS",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1062,
+    "name": "kilo mojado",
+    "code": "W2",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1063,
+    "name": "dos semanas",
+    "code": "W4",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1064,
+    "name": "vatio por kilogramo",
+    "code": "WA",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1065,
+    "name": "libra mojada",
+    "code": "WB",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1066,
+    "name": "cable",
+    "code": "WCD",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1067,
+    "name": "tonelada mojada",
+    "code": "WE",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1068,
+    "name": "weber",
+    "code": "WEB",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1069,
+    "name": "semana",
+    "code": "WEE",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1070,
+    "name": "galon de vino",
+    "code": "WG",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1071,
+    "name": "rueda",
+    "code": "WH",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1072,
+    "name": "vatios hora",
+    "code": "WHR",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1073,
+    "name": "peso por pulgada cuadrada",
+    "code": "WI",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1074,
+    "name": "mes de trabajo",
+    "code": "WM",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1075,
+    "name": "envolver",
+    "code": "WR",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1076,
+    "name": "estándar",
+    "code": "WSD",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1077,
+    "name": "vatio",
+    "code": "WTT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1078,
+    "name": "mililitro de agua",
+    "code": "WW",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1079,
+    "name": "cadena",
+    "code": "X1",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1080,
+    "name": "yarda cuadrada",
+    "code": "YDK",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1081,
+    "name": "Yarda cúbica",
+    "code": "YDQ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1082,
+    "name": "cien yardas lineales",
+    "code": "YL",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1083,
+    "name": "yarda",
+    "code": "YRD",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1084,
+    "name": "diez yardas",
+    "code": "YT",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1085,
+    "name": "van de elevación",
+    "code": "Z1",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1086,
+    "name": "pecho",
+    "code": "Z2",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1087,
+    "name": "barril",
+    "code": "Z3",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1088,
+    "name": "pipa",
+    "code": "Z4",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1089,
+    "name": "arrastrar",
+    "code": "Z5",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1090,
+    "name": "punto de conferencia",
+    "code": "Z6",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1091,
+    "name": "línea de noticias de ágata",
+    "code": "Z8",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1092,
+    "name": "página",
+    "code": "ZP",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 1093,
+    "name": "mutuamente definido",
+    "code": "ZZ",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  }
+]

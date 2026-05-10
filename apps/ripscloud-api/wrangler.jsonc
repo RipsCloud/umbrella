@@ -6,7 +6,7 @@
   "compatibility_flags": ["nodejs_compat"],
   "workers_dev": false,
 
-  // Local dev ports — see root README › Local dev.
+  // Rips Cloud local segment: 8830-8839. See root README › Local dev.
   // 8830 worker http · 8833 inspector · 8836 web (vite, see apps/ripscloud-web/vite.config.ts)
   "dev": {
     "port": 8830,
@@ -38,7 +38,23 @@
   "vars": {
     "LOG_LEVEL": "debug",
     "ALLOWED_ORIGINS": "http://localhost:8836",
-    "FEVRIPS_UPSTREAM_BASE_URL": "https://rips-stage.matrixmdsoftware.com"
+    "FEVRIPS_UPSTREAM_BASE_URL": "https://rips-stage.matrixmdsoftware.com",
+    "RIPS_ADMIN_GOOGLE_CLIENT_ID": "",
+    "RIPS_ADMIN_AUTH_ISSUER": "rips-admin-api",
+    "RIPS_ADMIN_AUTH_AUDIENCE": "rips-admin-client",
+    "RIPS_ADMIN_ACCESS_TOKEN_TTL_SEC": "3600",
+    "RIPS_ADMIN_REFRESH_TOKEN_TTL_SEC": "604800",
+    "RIPS_ADMIN_MONAROS_BASE_URL": "https://apidian.monaros.com.co/api/ubl2.1/",
+    "RIPS_ADMIN_LEDGER_PRODUCTION_URL": "https://dian-orchestrator.pahventure.com/api/v1/dian/",
+    "RIPS_ADMIN_LEDGER_HABILITACION_URL": "https://dian-orchestrator-hab.pahventure.com/api/v1/dian/",
+    "RIPS_ADMIN_LEDGER_REPORTING_PRODUCTION_URL": "https://pahventure-reporting-api-prod.pahventure.workers.dev/api/v1/dian/",
+    "RIPS_ADMIN_LEDGER_REPORTING_HABILITACION_URL": "https://pahventure-reporting-api-hab.pahventure.workers.dev/api/v1/dian/",
+    "RIPS_ADMIN_LEDGER_HABILITACION_TEST_SET_ID": "",
+    "RIPS_ADMIN_LEDGER_MAX_POLL_ATTEMPTS": "40",
+    "RIPS_ADMIN_LEDGER_POLL_INTERVAL_MS": "3000",
+    "SMTP_HOST": "email-smtp.us-east-1.amazonaws.com",
+    "SMTP_PORT": "2587",
+    "SMTP_FROM_ADDRESS": "no-reply@ripscloud.com"
   },
 
   "durable_objects": {
@@ -65,8 +81,8 @@
     {
       "binding": "DB",
       "database_name": "ripscloud-db",
-      "database_id": "REPLACE_WITH_D1_ID",
-      "preview_database_id": "REPLACE_WITH_D1_ID",
+      "database_id": "d0556ebf-00eb-4ab4-8375-91469da698e6",
+      "preview_database_id": "d0556ebf-00eb-4ab4-8375-91469da698e6",
       "migrations_dir": "../../packages/ripscloud-db/drizzle"
     }
   ],
@@ -82,7 +98,7 @@
   "kv_namespaces": [
     {
       "binding": "TOKENS",
-      "id": "REPLACE_WITH_KV_ID"
+      "id": "3aabc5d0381f4d0f8e80d8c30ec2403f"
     }
   ],
 
@@ -95,15 +111,31 @@
   "env": {
     "production": {
       "name": "ripscloud-api",
-      // TODO: confirm production custom domain before first deploy.
-      "routes": [
-        { "pattern": "api.ripscloud.com", "custom_domain": true }
-      ],
+      "workers_dev": true,
+      // Custom domain target once the `ripscloud.com` zone is onboarded:
+      // "routes": [
+      //   { "pattern": "api.ripscloud.com", "custom_domain": true }
+      // ],
       "vars": {
         "LOG_LEVEL": "info",
-        // TODO: set to the real web app origin once the domain is confirmed.
-        "ALLOWED_ORIGINS": "https://app.ripscloud.com",
-        "FEVRIPS_UPSTREAM_BASE_URL": "https://rips.matrixmdsoftware.com"
+        "ALLOWED_ORIGINS": "https://app.ripscloud.com,https://ripscloud-web.pages.dev",
+        "FEVRIPS_UPSTREAM_BASE_URL": "https://rips.matrixmdsoftware.com",
+        "RIPS_ADMIN_GOOGLE_CLIENT_ID": "",
+        "RIPS_ADMIN_AUTH_ISSUER": "rips-admin-api",
+        "RIPS_ADMIN_AUTH_AUDIENCE": "rips-admin-client",
+        "RIPS_ADMIN_ACCESS_TOKEN_TTL_SEC": "3600",
+        "RIPS_ADMIN_REFRESH_TOKEN_TTL_SEC": "604800",
+        "RIPS_ADMIN_MONAROS_BASE_URL": "https://apidian.monaros.com.co/api/ubl2.1/",
+        "RIPS_ADMIN_LEDGER_PRODUCTION_URL": "https://dian-orchestrator.pahventure.com/api/v1/dian/",
+        "RIPS_ADMIN_LEDGER_HABILITACION_URL": "https://dian-orchestrator-hab.pahventure.com/api/v1/dian/",
+        "RIPS_ADMIN_LEDGER_REPORTING_PRODUCTION_URL": "https://pahventure-reporting-api-prod.pahventure.workers.dev/api/v1/dian/",
+        "RIPS_ADMIN_LEDGER_REPORTING_HABILITACION_URL": "https://pahventure-reporting-api-hab.pahventure.workers.dev/api/v1/dian/",
+        "RIPS_ADMIN_LEDGER_HABILITACION_TEST_SET_ID": "",
+        "RIPS_ADMIN_LEDGER_MAX_POLL_ATTEMPTS": "40",
+        "RIPS_ADMIN_LEDGER_POLL_INTERVAL_MS": "3000",
+        "SMTP_HOST": "email-smtp.us-east-1.amazonaws.com",
+        "SMTP_PORT": "2587",
+        "SMTP_FROM_ADDRESS": "no-reply@ripscloud.com"
       },
       "durable_objects": {
         "bindings": [
@@ -120,8 +152,8 @@
         {
           "binding": "DB",
           "database_name": "ripscloud-db",
-          "database_id": "REPLACE_WITH_D1_ID",
-          "preview_database_id": "REPLACE_WITH_D1_ID",
+          "database_id": "d0556ebf-00eb-4ab4-8375-91469da698e6",
+          "preview_database_id": "d0556ebf-00eb-4ab4-8375-91469da698e6",
           "migrations_dir": "../../packages/ripscloud-db/drizzle",
           "remote": true
         }
@@ -136,7 +168,7 @@
       "kv_namespaces": [
         {
           "binding": "TOKENS",
-          "id": "REPLACE_WITH_KV_ID"
+          "id": "3aabc5d0381f4d0f8e80d8c30ec2403f"
         }
       ]
     }

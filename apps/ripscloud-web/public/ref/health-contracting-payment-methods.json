@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Pago individual por caso / Conjunto integral de atenciones / Paquete / Canasta.",
+    "code": "01",
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 2,
+    "name": "Pago global prospectivo.",
+    "code": "02",
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 3,
+    "name": "Pago por capitación.",
+    "code": "03",
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 4,
+    "name": "Pago por evento.",
+    "code": "04",
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 5,
+    "name": "Otra modalidad (específica)",
+    "code": "05",
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 6,
+    "name": "Pago por tipo de servicio",
+    "code": "06",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 7,
+    "name": "Pago global prospectivo por episodio",
+    "code": "07",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 8,
+    "name": "Pago global prospectivo por grupo de riesgo",
+    "code": "08",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 9,
+    "name": "Pago global prospectivo por especialidad",
+    "code": "09",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 10,
+    "name": "Pago global prospectivo por nivel de complejidad",
+    "code": "10",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 11,
+    "name": "Capacitación",
+    "code": "11",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 12,
+    "name": "Por servicio",
+    "code": "12",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  }
+]

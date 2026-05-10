@@ -1,0 +1,79 @@
+[
+ {
+  "id": "1",
+  "name": "Contributivo cotizante",
+  "code": "01",
+  "created_at": "2024-09-14 20:00:23",
+  "updated_at": "2024-09-14 20:00:23"
+ },
+ {
+  "id": "2",
+  "name": "Contributivo beneficiario",
+  "code": "02",
+  "created_at": "2024-09-14 20:00:23",
+  "updated_at": "2024-09-14 20:00:23"
+ },
+ {
+  "id": "3",
+  "name": "Contributivo adicional",
+  "code": "03",
+  "created_at": "2024-09-14 20:00:23",
+  "updated_at": "2024-09-14 20:00:23"
+ },
+ {
+  "id": "4",
+  "name": "Subsidiado",
+  "code": "04",
+  "created_at": "2024-09-14 20:00:23",
+  "updated_at": "2024-09-14 20:00:23"
+ },
+ {
+  "id": "5",
+  "name": "Sin r\u00e9gimen",
+  "code": "05",
+  "created_at": "2024-09-14 20:00:23",
+  "updated_at": "2024-09-14 20:00:23"
+ },
+ {
+  "id": "6",
+  "name": "Especiales o de Excepci\u00f3n cotizante",
+  "code": "06",
+  "created_at": "2024-09-14 20:00:23",
+  "updated_at": "2024-09-14 20:00:23"
+ },
+ {
+  "id": "7",
+  "name": "Especiales o de Excepci\u00f3n beneficiario",
+  "code": "07",
+  "created_at": "2024-09-14 20:00:23",
+  "updated_at": "2024-09-14 20:00:23"
+ },
+ {
+  "id": "8",
+  "name": "Particular",
+  "code": "08",
+  "created_at": "2024-09-14 20:00:23",
+  "updated_at": "2024-09-14 20:00:23"
+ },
+ {
+  "id": "9",
+  "name": "Tomador/Amparado ARL",
+  "code": "09",
+  "created_at": "2024-09-14 20:00:23",
+  "updated_at": "2024-09-14 20:00:23"
+ },
+ {
+  "id": "10",
+  "name": "Tomador/Amparado SOAT",
+  "code": "10",
+  "created_at": "2024-09-14 20:00:23",
+  "updated_at": "2024-09-14 20:00:23"
+ },
+ {
+  "id": "11",
+  "name": "Tomador/Amparado Planes voluntarios de salud",
+  "code": "11",
+  "created_at": "2024-09-14 20:00:23",
+  "updated_at": "2024-09-14 20:00:23"
+ }
+]

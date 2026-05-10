@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Registro civil",
+    "code": "11",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Tarjeta de identidad",
+    "code": "12",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Cédula de ciudadanía",
+    "code": "13",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Tarjeta de extranjería",
+    "code": "21",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Cédula de extranjería",
+    "code": "22",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 6,
+    "name": "NIT",
+    "code": "31",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 7,
+    "name": "Pasaporte",
+    "code": "41",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 8,
+    "name": "Documento de identificación extranjero",
+    "code": "42",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 9,
+    "name": "NIT de otro país",
+    "code": "50",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 10,
+    "name": "NUIP *",
+    "code": "91",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 11,
+    "name": "PEP (Permiso Especial de Permanencia)",
+    "code": "47",
+    "created_at": "2024-09-14T20:00:22.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  },
+  {
+    "id": 12,
+    "name": "PPT (Permiso Protección Temporal)",
+    "code": "48",
+    "created_at": "2024-09-14T20:00:23.000Z",
+    "updated_at": "2024-09-14T20:00:23.000Z"
+  }
+]

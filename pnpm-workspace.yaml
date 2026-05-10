@@ -21,11 +21,12 @@ catalog:
   # --- Toolchain ---
   typescript: 6.0.3
   turbo: 2.9.9
-  "@types/node": 25.6.0
+  "@types/node": 25.6.2
 
   # --- Cloudflare ecosystem ---
   wrangler: 4.88.0
   "@cloudflare/workers-types": 4.20260507.1
+  worker-mailer: 1.2.1
 
   # --- Drizzle ORM ---
   drizzle-orm: 0.45.2
@@ -48,6 +49,8 @@ catalog:
   vite: 8.0.10
 
   # --- Test ---
+  pg: 8.20.0
+  "@types/pg": 8.20.0
   vitest: 4.1.5
   tsx: 4.21.0
 

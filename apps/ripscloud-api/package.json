@@ -22,7 +22,9 @@
     "@ripscloud/ripscloud-logger": "workspace:*",
     "@ripscloud/ripscloud-queries": "workspace:*",
     "drizzle-orm": "catalog:",
+    "fflate": "^0.8.2",
     "hono": "catalog:",
+    "worker-mailer": "catalog:",
     "zod": "catalog:"
   },
   "devDependencies": {

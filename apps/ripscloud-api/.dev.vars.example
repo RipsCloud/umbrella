@@ -7,3 +7,44 @@
 # Optional: override the upstream FEV RIPS base URL. Defaults to the staging
 # upstream so local dev never accidentally writes to production.
 # FEVRIPS_UPSTREAM_BASE_URL=https://rips-stage.matrixmdsoftware.com
+
+# Optional: enables the legacy frontend config endpoint to advertise the Google
+# client id. When set, the Worker also checks the Google ID token audience
+# against this value during /api/auth/google.
+# RIPS_ADMIN_GOOGLE_CLIENT_ID=
+
+# Required outside local debug fallback. Use `wrangler secret put
+# RIPS_ADMIN_JWT_SECRET` for deployed environments.
+# RIPS_ADMIN_JWT_SECRET=replace-with-a-long-random-local-secret
+
+# Optional guard for the RIPS Admin migration endpoint. Local debug allows
+# migration calls without it; deployed Workers should set this as a secret and
+# the migration CLI should send the same value.
+# RIPS_ADMIN_MIGRATION_SECRET=
+
+# Optional: override provider document download endpoints used by the RIPS Admin
+# compatibility layer. The non-secret defaults live in wrangler.jsonc.
+# RIPS_ADMIN_MONAROS_BASE_URL=https://apidian.monaros.com.co/api/ubl2.1/
+# RIPS_ADMIN_LEDGER_PRODUCTION_URL=https://dian-orchestrator.pahventure.com/api/v1/dian/
+# RIPS_ADMIN_LEDGER_HABILITACION_URL=https://dian-orchestrator-hab.pahventure.com/api/v1/dian/
+# RIPS_ADMIN_LEDGER_REPORTING_PRODUCTION_URL=https://pahventure-reporting-api-prod.pahventure.workers.dev/api/v1/dian/
+# RIPS_ADMIN_LEDGER_REPORTING_HABILITACION_URL=https://pahventure-reporting-api-hab.pahventure.workers.dev/api/v1/dian/
+
+# Optional secret for Ledger/orchestrator artifact downloads when the endpoint
+# requires X-API-Key. Store it with wrangler secret put in deployed Workers.
+# RIPS_ADMIN_LEDGER_API_KEY=
+
+# Optional Ledger live-dispatch controls. Habilitacion testSetId is omitted by
+# default; polling defaults live in wrangler.jsonc.
+# RIPS_ADMIN_LEDGER_HABILITACION_TEST_SET_ID=
+# RIPS_ADMIN_LEDGER_MAX_POLL_ATTEMPTS=40
+# RIPS_ADMIN_LEDGER_POLL_INTERVAL_MS=3000
+
+# Optional SMTP settings for legacy RIPS Admin invoice/credit note email resend.
+# Host, port, and from defaults live in wrangler.jsonc. Keep credentials secret:
+# use .dev.vars locally and `wrangler secret put` in deployed Workers.
+# SEND_EMAIL=false disables SMTP even when credentials are present.
+# SEND_EMAIL=true
+# SMTP_USERNAME=
+# SMTP_PASSWORD=
+# SMTP_ENABLE_SSL=false

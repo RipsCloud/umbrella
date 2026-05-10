@@ -20,6 +20,7 @@
     "typecheck": "pnpm -r --parallel run lint",
     "db:migrate:ripscloud-api": "pnpm --filter @ripscloud/ripscloud-api run db:migrate",
     "db:migrate:ripscloud-api:remote": "pnpm --filter @ripscloud/ripscloud-api run db:migrate:remote",
+    "migrate:rips-admin": "tsx scripts/rips-admin-migrate.ts",
     "setup:ripscloud": "pnpm db:migrate:ripscloud-api",
     "ship:ripscloud": "pnpm ship:ripscloud-api && pnpm ship:ripscloud-web",
     "ship:ripscloud-api": "pnpm --filter @ripscloud/ripscloud-api run ship",
@@ -34,6 +35,10 @@
     ]
   },
   "devDependencies": {
+    "@types/node": "catalog:",
+    "@types/pg": "catalog:",
+    "pg": "catalog:",
+    "tsx": "catalog:",
     "turbo": "catalog:",
     "typescript": "catalog:",
     "wrangler": "catalog:"

@@ -3,6 +3,8 @@ import { swaggerUI } from "@hono/swagger-ui";
 import { cors } from "hono/cors";
 
 import { TenantDO } from "./do/tenant-do";
+import authRoutes from "./routes/auth";
+import ripsAdminRoutes from "./routes/rips-admin";
 import tenantRoutes from "./routes/tenant";
 import type { Bindings, Variables } from "./env";
 
@@ -24,6 +26,8 @@ app.get("/health", (c) =>
   }),
 );
 
+app.route("/", authRoutes);
+app.route("/", ripsAdminRoutes);
 app.route("/", tenantRoutes);
 
 app.doc("/doc", {
@@ -34,9 +38,9 @@ app.doc("/doc", {
     description:
       "Per-tenant manager over the Colombian Ministry FEV RIPS / SISPRO upstream. Routes are namespaced by tenant slug: POST /{tenant}/api/Auth/LoginSISPRO, POST /{tenant}/api/ConsultasFevRips/RecuperarCUV, etc. Login is intercepted to store credentials + token in a per-tenant Durable Object; subsequent calls auto-inject the token and refresh on 401.",
   },
-  // TODO: confirm production / stage hostnames before publishing the spec externally.
   servers: [
-    { url: "https://api.ripscloud.com", description: "Production" },
+    { url: "https://ripscloud-api.pahventure.workers.dev", description: "Production Workers.dev fallback" },
+    { url: "https://api.ripscloud.com", description: "Planned custom production domain" },
     { url: "https://api-stage.ripscloud.com", description: "Stage" },
     { url: "http://localhost:8830", description: "Local development" },
   ],
