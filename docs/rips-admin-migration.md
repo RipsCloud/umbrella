@@ -174,7 +174,7 @@ Production resources are provisioned in the Pah Venture Cloudflare account:
 - KV: `ripscloud-tokens` (`3aabc5d0381f4d0f8e80d8c30ec2403f`)
 - R2: `ripscloud-files`
 - Worker: `ripscloud-api` (`https://ripscloud-api.pahventure.workers.dev`)
-- Pages: `ripscloud-web` (`https://ripscloud-web.pages.dev/`, latest deployment `https://62724d9c.ripscloud-web.pages.dev`)
+- Pages: `ripscloud-web` (`https://ripscloud-web.pages.dev/`)
 
 `api.ripscloud.com` is the intended custom API domain, but the `ripscloud.com` zone is not onboarded in the Pah Venture Cloudflare account as of 2026-05-10. The Worker deploy therefore uses the Workers.dev fallback until DNS is available.
 

@@ -95,7 +95,7 @@ pnpm ship:ripscloud-web      # just the Pages site
 Production deploy targets:
 
 - Worker: `ripscloud-api` (`https://ripscloud-api.pahventure.workers.dev`; intended custom domain `https://api.ripscloud.com` once the zone is onboarded)
-- Pages project: `ripscloud-web` (`https://ripscloud-web.pages.dev`, latest deployment `https://62724d9c.ripscloud-web.pages.dev`, production app origin `https://app.ripscloud.com`)
+- Pages project: `ripscloud-web` (`https://ripscloud-web.pages.dev`, production app origin `https://app.ripscloud.com`)
 - D1: `ripscloud-db`
 - KV: `ripscloud-tokens` bound as `TOKENS`
 - R2: `ripscloud-files`
